@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BatteryStatusShow.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>smcutil.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>614C00731EC23FA8001543D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>614C00841EC23FA8001543D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>614C008F1EC23FA8001543D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6193277224708379000EA703</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

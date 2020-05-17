@@ -1,0 +1,1070 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61065A5C1ED338A6008DB039 /* battery.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61065A5B1ED338A6008DB039 /* battery.csv */; };
+		61065A5E1ED384D8008DB039 /* IOHID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61065A5D1ED384D8008DB039 /* IOHID.swift */; };
+		61095B0E1EE537BA00C924AC /* WindowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61095B0D1EE537BA00C924AC /* WindowsController.swift */; };
+		611453971ED942A80049A78A /* libimobiledevice.6.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 611453931ED941640049A78A /* libimobiledevice.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		611453991ED942A80049A78A /* libplist++.3.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6114538F1ED941460049A78A /* libplist++.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		611AEA801EE1E8C600315DA9 /* IOSModelDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611AEA7F1EE1E8C600315DA9 /* IOSModelDict.swift */; };
+		61245F701EDAC2A5006940C9 /* iOSDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61245F6F1EDAC2A5006940C9 /* iOSDetailViewController.swift */; };
+		6129C5C61EDC8D0E006A447F /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129C5C51EDC8D0E006A447F /* LogViewController.swift */; };
+		6129C5C81EDC8E6D006A447F /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129C5C71EDC8E6D006A447F /* LogView.swift */; };
+		6129C5CA1EDDEDBB006A447F /* StatusBaseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129C5C91EDDEDBB006A447F /* StatusBaseChartView.swift */; };
+		6143BBBC1ED9455900F12627 /* libplist.3.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBB61ED9453C00F12627 /* libplist.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BBBE1ED9455900F12627 /* libplist.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBB81ED9453C00F12627 /* libplist.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BBBF1ED94ABD00F12627 /* libimobiledevice.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 611453931ED941640049A78A /* libimobiledevice.6.dylib */; };
+		6143BBDB1ED9B0B000F12627 /* lib4758cca.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBCF1ED9B0B000F12627 /* lib4758cca.dylib */; };
+		6143BBDC1ED9B0B000F12627 /* libaep.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD01ED9B0B000F12627 /* libaep.dylib */; };
+		6143BBDD1ED9B0B000F12627 /* libatalla.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD11ED9B0B000F12627 /* libatalla.dylib */; };
+		6143BBDE1ED9B0B000F12627 /* libcapi.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD21ED9B0B000F12627 /* libcapi.dylib */; };
+		6143BBDF1ED9B0B000F12627 /* libchil.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD31ED9B0B000F12627 /* libchil.dylib */; };
+		6143BBE01ED9B0B000F12627 /* libcswift.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD41ED9B0B000F12627 /* libcswift.dylib */; };
+		6143BBE11ED9B0B000F12627 /* libgmp.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD51ED9B0B000F12627 /* libgmp.dylib */; };
+		6143BBE21ED9B0B000F12627 /* libgost.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD61ED9B0B000F12627 /* libgost.dylib */; };
+		6143BBE31ED9B0B000F12627 /* libnuron.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD71ED9B0B000F12627 /* libnuron.dylib */; };
+		6143BBE41ED9B0B000F12627 /* libpadlock.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD81ED9B0B000F12627 /* libpadlock.dylib */; };
+		6143BBE51ED9B0B000F12627 /* libsureware.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD91ED9B0B000F12627 /* libsureware.dylib */; };
+		6143BBE61ED9B0B000F12627 /* libubsec.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBDA1ED9B0B000F12627 /* libubsec.dylib */; };
+		6143BBF91ED9B10600F12627 /* libcrypto.1.0.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBE71ED9B0BE00F12627 /* libcrypto.1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BBFB1ED9B10600F12627 /* libcrypto.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBE91ED9B0BE00F12627 /* libcrypto.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BBFC1ED9B10600F12627 /* libssl.1.0.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBEA1ED9B0BE00F12627 /* libssl.1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BBFE1ED9B10600F12627 /* libssl.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBEC1ED9B0BE00F12627 /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BBFF1ED9B10600F12627 /* lib4758cca.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBCF1ED9B0B000F12627 /* lib4758cca.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC001ED9B10600F12627 /* libaep.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD01ED9B0B000F12627 /* libaep.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC011ED9B10600F12627 /* libatalla.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD11ED9B0B000F12627 /* libatalla.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC021ED9B10600F12627 /* libcapi.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD21ED9B0B000F12627 /* libcapi.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC031ED9B10600F12627 /* libchil.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD31ED9B0B000F12627 /* libchil.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC041ED9B10600F12627 /* libcswift.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD41ED9B0B000F12627 /* libcswift.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC051ED9B10600F12627 /* libgmp.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD51ED9B0B000F12627 /* libgmp.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC061ED9B10600F12627 /* libgost.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD61ED9B0B000F12627 /* libgost.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC071ED9B10600F12627 /* libnuron.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD71ED9B0B000F12627 /* libnuron.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC081ED9B10600F12627 /* libpadlock.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD81ED9B0B000F12627 /* libpadlock.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC091ED9B10600F12627 /* libsureware.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD91ED9B0B000F12627 /* libsureware.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC0A1ED9B10600F12627 /* libubsec.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBDA1ED9B0B000F12627 /* libubsec.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC0B1ED9B10600F12627 /* libusb-1.0.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBC91ED9B05200F12627 /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC0D1ED9B10600F12627 /* libusb-1.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBCB1ED9B05200F12627 /* libusb-1.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC0E1ED9B10600F12627 /* libusbmuxd.4.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBF31ED9B0EF00F12627 /* libusbmuxd.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC101ED9B10600F12627 /* libusbmuxd.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBF51ED9B0EF00F12627 /* libusbmuxd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6143BC111ED9B12100F12627 /* libcrypto.1.0.0.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBE71ED9B0BE00F12627 /* libcrypto.1.0.0.dylib */; };
+		6143BC131ED9B12100F12627 /* libcrypto.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBE91ED9B0BE00F12627 /* libcrypto.dylib */; };
+		6143BC141ED9B12100F12627 /* libssl.1.0.0.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBEA1ED9B0BE00F12627 /* libssl.1.0.0.dylib */; };
+		6143BC161ED9B12100F12627 /* libssl.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBEC1ED9B0BE00F12627 /* libssl.dylib */; };
+		6143BC171ED9B12100F12627 /* libusb-1.0.0.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBC91ED9B05200F12627 /* libusb-1.0.0.dylib */; };
+		6143BC191ED9B12100F12627 /* libusb-1.0.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBCB1ED9B05200F12627 /* libusb-1.0.dylib */; };
+		6143BC1A1ED9B12100F12627 /* libplist.3.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBB61ED9453C00F12627 /* libplist.3.dylib */; };
+		6143BC1C1ED9B12100F12627 /* libplist.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBB81ED9453C00F12627 /* libplist.dylib */; };
+		6143BC1D1ED9B12100F12627 /* libimobiledevice.6.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 611453931ED941640049A78A /* libimobiledevice.6.dylib */; };
+		6143BC1F1ED9B12100F12627 /* libplist++.3.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6114538F1ED941460049A78A /* libplist++.3.dylib */; };
+		6143BC211ED9B12100F12627 /* libusbmuxd.4.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBF31ED9B0EF00F12627 /* libusbmuxd.4.dylib */; };
+		6143BC231ED9B12100F12627 /* libusbmuxd.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBF51ED9B0EF00F12627 /* libusbmuxd.dylib */; };
+		614C00781EC23FA8001543D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614C00771EC23FA8001543D9 /* AppDelegate.swift */; };
+		614C007C1EC23FA8001543D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614C007B1EC23FA8001543D9 /* Assets.xcassets */; };
+		614C007F1EC23FA8001543D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614C007D1EC23FA8001543D9 /* Main.storyboard */; };
+		614C008A1EC23FA8001543D9 /* BatteryStatusShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614C00891EC23FA8001543D9 /* BatteryStatusShowTests.swift */; };
+		614C00951EC23FA8001543D9 /* BatteryStatusShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614C00941EC23FA8001543D9 /* BatteryStatusShowUITests.swift */; };
+		614C00A31EC30661001543D9 /* IOBattery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614C00A21EC30661001543D9 /* IOBattery.swift */; };
+		615118021EDEEDDA00D11475 /* IOSHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615118011EDEEDDA00D11475 /* IOSHistoryViewController.swift */; };
+		61821D8E1EC49359005750A0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61821D8D1EC49359005750A0 /* DetailViewController.swift */; };
+		6193279024709106000EA703 /* SmcHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 61932782247083FD000EA703 /* SmcHelper.m */; };
+		6193279124709106000EA703 /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6193276524707C3E000EA703 /* smc.c */; };
+		6193279324709114000EA703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193277A24708393000EA703 /* Foundation.framework */; };
+		619327942470911A000EA703 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193276824707EAD000EA703 /* IOKit.framework */; };
+		61932796247091E0000EA703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61932795247091AD000EA703 /* main.m */; };
+		6193279D2470F80A000EA703 /* smcutil in Resources */ = {isa = PBXBuildFile; fileRef = 61932788247090D0000EA703 /* smcutil */; };
+		619F38FC1ECB078D0074666B /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F38FB1ECB078D0074666B /* ChartViewController.swift */; };
+		619F38FE1ECB08370074666B /* BaseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F38FD1ECB08370074666B /* BaseChartView.swift */; };
+		619F39001ECB53D10074666B /* BatteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F38FF1ECB53D10074666B /* BatteryViewController.swift */; };
+		619F39021ECB595C0074666B /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F39011ECB595C0074666B /* HistoryViewController.swift */; };
+		619F39041ECB794A0074666B /* PowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F39031ECB794A0074666B /* PowerViewController.swift */; };
+		619F39071ECB80410074666B /* data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 619F39051ECB80410074666B /* data.xcdatamodeld */; };
+		619F39091ECB83310074666B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F39081ECB83310074666B /* DataController.swift */; };
+		619F390B1ECB8EBC0074666B /* HistoryMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F390A1ECB8EBC0074666B /* HistoryMO.swift */; };
+		61AE7F7E1EE2A4140003BC96 /* BatteryStatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AE7F7D1EE2A4140003BC96 /* BatteryStatusItem.swift */; };
+		61AF6F461EDAF7D4005F8DA9 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF6F451EDAF7D4005F8DA9 /* TabViewController.swift */; };
+		61AF6F481EDB0A85005F8DA9 /* iosbattery.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61AF6F471EDB0A85005F8DA9 /* iosbattery.csv */; };
+		61AF6F4A1EDB1018005F8DA9 /* PeripheralViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF6F491EDB1018005F8DA9 /* PeripheralViewControl.swift */; };
+		61B2CC771EDAE909001097D6 /* libplist.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBB61ED9453C00F12627 /* libplist.3.dylib */; };
+		61D358171ED0C4B800769C03 /* TwoAxisBaseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D358161ED0C4B800769C03 /* TwoAxisBaseChartView.swift */; };
+		61D3581A1ED21F9000769C03 /* mapping .xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 61D358191ED21F9000769C03 /* mapping .xcmappingmodel */; };
+		61D3581C1ED237C900769C03 /* CycleEntityMigrationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3581B1ED237C900769C03 /* CycleEntityMigrationPolicy.swift */; };
+		61D3581E1ED23EA200769C03 /* mappingtoold.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 61D3581D1ED23EA200769C03 /* mappingtoold.xcmappingmodel */; };
+		61E4D21424718CE900E9860B /* BatteryStatusShow_1.5.zip in Resources */ = {isa = PBXBuildFile; fileRef = 61E4D21324718CE900E9860B /* BatteryStatusShow_1.5.zip */; };
+		61E4D21824718FBD00E9860B /* readme_pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E4D21624718FBD00E9860B /* readme_pic1.png */; };
+		61E4D21924718FBD00E9860B /* readme_pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E4D21724718FBD00E9860B /* readme_pic2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		614C00861EC23FA8001543D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614C006C1EC23FA8001543D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614C00731EC23FA8001543D9;
+			remoteInfo = BatteryStatusShow;
+		};
+		614C00911EC23FA8001543D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614C006C1EC23FA8001543D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614C00731EC23FA8001543D9;
+			remoteInfo = BatteryStatusShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		61065A6A1ED41439008DB039 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6143BBF91ED9B10600F12627 /* libcrypto.1.0.0.dylib in Embed Frameworks */,
+				6143BBFB1ED9B10600F12627 /* libcrypto.dylib in Embed Frameworks */,
+				6143BBFC1ED9B10600F12627 /* libssl.1.0.0.dylib in Embed Frameworks */,
+				6143BBFE1ED9B10600F12627 /* libssl.dylib in Embed Frameworks */,
+				6143BBFF1ED9B10600F12627 /* lib4758cca.dylib in Embed Frameworks */,
+				6143BC001ED9B10600F12627 /* libaep.dylib in Embed Frameworks */,
+				6143BC011ED9B10600F12627 /* libatalla.dylib in Embed Frameworks */,
+				6143BC021ED9B10600F12627 /* libcapi.dylib in Embed Frameworks */,
+				6143BC031ED9B10600F12627 /* libchil.dylib in Embed Frameworks */,
+				6143BC041ED9B10600F12627 /* libcswift.dylib in Embed Frameworks */,
+				6143BC051ED9B10600F12627 /* libgmp.dylib in Embed Frameworks */,
+				6143BC061ED9B10600F12627 /* libgost.dylib in Embed Frameworks */,
+				6143BC071ED9B10600F12627 /* libnuron.dylib in Embed Frameworks */,
+				6143BC081ED9B10600F12627 /* libpadlock.dylib in Embed Frameworks */,
+				6143BC091ED9B10600F12627 /* libsureware.dylib in Embed Frameworks */,
+				6143BC0A1ED9B10600F12627 /* libubsec.dylib in Embed Frameworks */,
+				6143BC0B1ED9B10600F12627 /* libusb-1.0.0.dylib in Embed Frameworks */,
+				6143BC0D1ED9B10600F12627 /* libusb-1.0.dylib in Embed Frameworks */,
+				6143BC0E1ED9B10600F12627 /* libusbmuxd.4.dylib in Embed Frameworks */,
+				6143BC101ED9B10600F12627 /* libusbmuxd.dylib in Embed Frameworks */,
+				6143BBBC1ED9455900F12627 /* libplist.3.dylib in Embed Frameworks */,
+				6143BBBE1ED9455900F12627 /* libplist.dylib in Embed Frameworks */,
+				611453971ED942A80049A78A /* libimobiledevice.6.dylib in Embed Frameworks */,
+				611453991ED942A80049A78A /* libplist++.3.dylib in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61932786247090D0000EA703 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		61065A5B1ED338A6008DB039 /* battery.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = battery.csv; sourceTree = "<group>"; };
+		61065A5D1ED384D8008DB039 /* IOHID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOHID.swift; sourceTree = "<group>"; };
+		61095B0D1EE537BA00C924AC /* WindowsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowsController.swift; sourceTree = "<group>"; };
+		6111F0E71ED894AD004DD608 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		6111F0EB1ED8984F004DD608 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		6114538F1ED941460049A78A /* libplist++.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libplist++.3.dylib"; sourceTree = "<group>"; };
+		611453931ED941640049A78A /* libimobiledevice.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libimobiledevice.6.dylib; sourceTree = "<group>"; };
+		611AEA7F1EE1E8C600315DA9 /* IOSModelDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSModelDict.swift; sourceTree = "<group>"; };
+		61245F6F1EDAC2A5006940C9 /* iOSDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDetailViewController.swift; sourceTree = "<group>"; };
+		6129C5C51EDC8D0E006A447F /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		6129C5C71EDC8E6D006A447F /* LogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		6129C5C91EDDEDBB006A447F /* StatusBaseChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBaseChartView.swift; sourceTree = "<group>"; };
+		6143BBB61ED9453C00F12627 /* libplist.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libplist.3.dylib; sourceTree = "<group>"; };
+		6143BBB81ED9453C00F12627 /* libplist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libplist.dylib; sourceTree = "<group>"; };
+		6143BBC71ED9AE9800F12627 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6143BBC91ED9B05200F12627 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		6143BBCB1ED9B05200F12627 /* libusb-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-1.0.dylib"; sourceTree = "<group>"; };
+		6143BBCF1ED9B0B000F12627 /* lib4758cca.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = lib4758cca.dylib; sourceTree = "<group>"; };
+		6143BBD01ED9B0B000F12627 /* libaep.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libaep.dylib; sourceTree = "<group>"; };
+		6143BBD11ED9B0B000F12627 /* libatalla.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libatalla.dylib; sourceTree = "<group>"; };
+		6143BBD21ED9B0B000F12627 /* libcapi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libcapi.dylib; sourceTree = "<group>"; };
+		6143BBD31ED9B0B000F12627 /* libchil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libchil.dylib; sourceTree = "<group>"; };
+		6143BBD41ED9B0B000F12627 /* libcswift.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libcswift.dylib; sourceTree = "<group>"; };
+		6143BBD51ED9B0B000F12627 /* libgmp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libgmp.dylib; sourceTree = "<group>"; };
+		6143BBD61ED9B0B000F12627 /* libgost.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libgost.dylib; sourceTree = "<group>"; };
+		6143BBD71ED9B0B000F12627 /* libnuron.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libnuron.dylib; sourceTree = "<group>"; };
+		6143BBD81ED9B0B000F12627 /* libpadlock.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libpadlock.dylib; sourceTree = "<group>"; };
+		6143BBD91ED9B0B000F12627 /* libsureware.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libsureware.dylib; sourceTree = "<group>"; };
+		6143BBDA1ED9B0B000F12627 /* libubsec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libubsec.dylib; sourceTree = "<group>"; };
+		6143BBE71ED9B0BE00F12627 /* libcrypto.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcrypto.1.0.0.dylib; sourceTree = "<group>"; };
+		6143BBE91ED9B0BE00F12627 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcrypto.dylib; sourceTree = "<group>"; };
+		6143BBEA1ED9B0BE00F12627 /* libssl.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libssl.1.0.0.dylib; sourceTree = "<group>"; };
+		6143BBEC1ED9B0BE00F12627 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libssl.dylib; sourceTree = "<group>"; };
+		6143BBF31ED9B0EF00F12627 /* libusbmuxd.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libusbmuxd.4.dylib; sourceTree = "<group>"; };
+		6143BBF51ED9B0EF00F12627 /* libusbmuxd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libusbmuxd.dylib; sourceTree = "<group>"; };
+		614C00741EC23FA8001543D9 /* BatteryStatusShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryStatusShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		614C00771EC23FA8001543D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		614C007B1EC23FA8001543D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614C007E1EC23FA8001543D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		614C00801EC23FA8001543D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614C00851EC23FA8001543D9 /* BatteryStatusShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryStatusShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		614C00891EC23FA8001543D9 /* BatteryStatusShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryStatusShowTests.swift; sourceTree = "<group>"; };
+		614C008B1EC23FA8001543D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614C00901EC23FA8001543D9 /* BatteryStatusShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryStatusShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		614C00941EC23FA8001543D9 /* BatteryStatusShowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryStatusShowUITests.swift; sourceTree = "<group>"; };
+		614C00961EC23FA8001543D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614C00A21EC30661001543D9 /* IOBattery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOBattery.swift; sourceTree = "<group>"; };
+		615118011EDEEDDA00D11475 /* IOSHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IOSHistoryViewController.swift; path = ../IOSHistoryViewController.swift; sourceTree = "<group>"; };
+		61821D8D1EC49359005750A0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6193276524707C3E000EA703 /* smc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = smc.c; sourceTree = "<group>"; };
+		6193276624707C3E000EA703 /* smc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smc.h; sourceTree = "<group>"; };
+		6193276824707EAD000EA703 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		6193277A24708393000EA703 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61932781247083FD000EA703 /* SmcHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmcHelper.h; sourceTree = "<group>"; };
+		61932782247083FD000EA703 /* SmcHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmcHelper.m; sourceTree = "<group>"; };
+		61932788247090D0000EA703 /* smcutil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = smcutil; sourceTree = BUILT_PRODUCTS_DIR; };
+		61932795247091AD000EA703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6193279C2470F7C5000EA703 /* BatteryStatusShow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BatteryStatusShow.entitlements; sourceTree = "<group>"; };
+		619327A024711229000EA703 /* smcutil-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smcutil-Prefix.pch"; sourceTree = "<group>"; };
+		619F38FB1ECB078D0074666B /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		619F38FD1ECB08370074666B /* BaseChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseChartView.swift; sourceTree = "<group>"; };
+		619F38FF1ECB53D10074666B /* BatteryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryViewController.swift; sourceTree = "<group>"; };
+		619F39011ECB595C0074666B /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		619F39031ECB794A0074666B /* PowerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerViewController.swift; sourceTree = "<group>"; };
+		619F39061ECB80410074666B /* data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = data.xcdatamodel; sourceTree = "<group>"; };
+		619F39081ECB83310074666B /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		619F390A1ECB8EBC0074666B /* HistoryMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryMO.swift; sourceTree = "<group>"; };
+		61AE7F7D1EE2A4140003BC96 /* BatteryStatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryStatusItem.swift; sourceTree = "<group>"; };
+		61AF6F451EDAF7D4005F8DA9 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		61AF6F471EDB0A85005F8DA9 /* iosbattery.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iosbattery.csv; sourceTree = "<group>"; };
+		61AF6F491EDB1018005F8DA9 /* PeripheralViewControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralViewControl.swift; sourceTree = "<group>"; };
+		61D358161ED0C4B800769C03 /* TwoAxisBaseChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoAxisBaseChartView.swift; sourceTree = "<group>"; };
+		61D358181ED217F600769C03 /* v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v2.xcdatamodel; sourceTree = "<group>"; };
+		61D358191ED21F9000769C03 /* mapping .xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "mapping .xcmappingmodel"; sourceTree = "<group>"; };
+		61D3581B1ED237C900769C03 /* CycleEntityMigrationPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CycleEntityMigrationPolicy.swift; path = ../CycleEntityMigrationPolicy.swift; sourceTree = "<group>"; };
+		61D3581D1ED23EA200769C03 /* mappingtoold.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = mappingtoold.xcmappingmodel; sourceTree = "<group>"; };
+		61E4D21324718CE900E9860B /* BatteryStatusShow_1.5.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = BatteryStatusShow_1.5.zip; path = release/BatteryStatusShow_1.5.zip; sourceTree = SOURCE_ROOT; };
+		61E4D21524718E9500E9860B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		61E4D21624718FBD00E9860B /* readme_pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = readme_pic1.png; path = README/readme_pic1.png; sourceTree = "<group>"; };
+		61E4D21724718FBD00E9860B /* readme_pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = readme_pic2.png; path = README/readme_pic2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		614C00711EC23FA8001543D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6143BBBF1ED94ABD00F12627 /* libimobiledevice.6.dylib in Frameworks */,
+				61B2CC771EDAE909001097D6 /* libplist.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614C00821EC23FA8001543D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614C008D1EC23FA8001543D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61932785247090D0000EA703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619327942470911A000EA703 /* IOKit.framework in Frameworks */,
+				6193279324709114000EA703 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61065A9C1ED43636008DB039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6193277A24708393000EA703 /* Foundation.framework */,
+				6193276824707EAD000EA703 /* IOKit.framework */,
+				6143BBC71ED9AE9800F12627 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		614C006B1EC23FA8001543D9 = {
+			isa = PBXGroup;
+			children = (
+				61E4D21624718FBD00E9860B /* readme_pic1.png */,
+				61E4D21724718FBD00E9860B /* readme_pic2.png */,
+				61E4D21524718E9500E9860B /* README.md */,
+				614C00761EC23FA8001543D9 /* BatteryStatusShow */,
+				614C00881EC23FA8001543D9 /* BatteryStatusShowTests */,
+				614C00931EC23FA8001543D9 /* BatteryStatusShowUITests */,
+				61932789247090D0000EA703 /* smcutil */,
+				614C00751EC23FA8001543D9 /* Products */,
+				61065A9C1ED43636008DB039 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		614C00751EC23FA8001543D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				614C00741EC23FA8001543D9 /* BatteryStatusShow.app */,
+				614C00851EC23FA8001543D9 /* BatteryStatusShowTests.xctest */,
+				614C00901EC23FA8001543D9 /* BatteryStatusShowUITests.xctest */,
+				61932788247090D0000EA703 /* smcutil */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		614C00761EC23FA8001543D9 /* BatteryStatusShow */ = {
+			isa = PBXGroup;
+			children = (
+				61E4D21324718CE900E9860B /* BatteryStatusShow_1.5.zip */,
+				6193279C2470F7C5000EA703 /* BatteryStatusShow.entitlements */,
+				619327A024711229000EA703 /* smcutil-Prefix.pch */,
+				61932781247083FD000EA703 /* SmcHelper.h */,
+				61932782247083FD000EA703 /* SmcHelper.m */,
+				6193276524707C3E000EA703 /* smc.c */,
+				6193276624707C3E000EA703 /* smc.h */,
+				6111F0E71ED894AD004DD608 /* include */,
+				61065A5B1ED338A6008DB039 /* battery.csv */,
+				61AF6F471EDB0A85005F8DA9 /* iosbattery.csv */,
+				6143BBCF1ED9B0B000F12627 /* lib4758cca.dylib */,
+				6143BBD01ED9B0B000F12627 /* libaep.dylib */,
+				6143BBD11ED9B0B000F12627 /* libatalla.dylib */,
+				6143BBD21ED9B0B000F12627 /* libcapi.dylib */,
+				6143BBD31ED9B0B000F12627 /* libchil.dylib */,
+				6143BBE71ED9B0BE00F12627 /* libcrypto.1.0.0.dylib */,
+				6143BBE91ED9B0BE00F12627 /* libcrypto.dylib */,
+				6143BBD41ED9B0B000F12627 /* libcswift.dylib */,
+				6143BBD51ED9B0B000F12627 /* libgmp.dylib */,
+				6143BBD61ED9B0B000F12627 /* libgost.dylib */,
+				611453931ED941640049A78A /* libimobiledevice.6.dylib */,
+				6143BBD71ED9B0B000F12627 /* libnuron.dylib */,
+				6143BBD81ED9B0B000F12627 /* libpadlock.dylib */,
+				6143BBB61ED9453C00F12627 /* libplist.3.dylib */,
+				6143BBB81ED9453C00F12627 /* libplist.dylib */,
+				6114538F1ED941460049A78A /* libplist++.3.dylib */,
+				6143BBEA1ED9B0BE00F12627 /* libssl.1.0.0.dylib */,
+				6143BBEC1ED9B0BE00F12627 /* libssl.dylib */,
+				6143BBD91ED9B0B000F12627 /* libsureware.dylib */,
+				6143BBDA1ED9B0B000F12627 /* libubsec.dylib */,
+				6143BBC91ED9B05200F12627 /* libusb-1.0.0.dylib */,
+				6143BBCB1ED9B05200F12627 /* libusb-1.0.dylib */,
+				6143BBF31ED9B0EF00F12627 /* libusbmuxd.4.dylib */,
+				6143BBF51ED9B0EF00F12627 /* libusbmuxd.dylib */,
+				6111F0EB1ED8984F004DD608 /* Bridging-Header.h */,
+				614C00801EC23FA8001543D9 /* Info.plist */,
+				614C00771EC23FA8001543D9 /* AppDelegate.swift */,
+				619F38FD1ECB08370074666B /* BaseChartView.swift */,
+				619F38FF1ECB53D10074666B /* BatteryViewController.swift */,
+				619F38FB1ECB078D0074666B /* ChartViewController.swift */,
+				61D3581B1ED237C900769C03 /* CycleEntityMigrationPolicy.swift */,
+				619F39081ECB83310074666B /* DataController.swift */,
+				61821D8D1EC49359005750A0 /* DetailViewController.swift */,
+				619F390A1ECB8EBC0074666B /* HistoryMO.swift */,
+				619F39011ECB595C0074666B /* HistoryViewController.swift */,
+				614C00A21EC30661001543D9 /* IOBattery.swift */,
+				61065A5D1ED384D8008DB039 /* IOHID.swift */,
+				61245F6F1EDAC2A5006940C9 /* iOSDetailViewController.swift */,
+				615118011EDEEDDA00D11475 /* IOSHistoryViewController.swift */,
+				6129C5C71EDC8E6D006A447F /* LogView.swift */,
+				6129C5C51EDC8D0E006A447F /* LogViewController.swift */,
+				61AF6F491EDB1018005F8DA9 /* PeripheralViewControl.swift */,
+				619F39031ECB794A0074666B /* PowerViewController.swift */,
+				6129C5C91EDDEDBB006A447F /* StatusBaseChartView.swift */,
+				61AF6F451EDAF7D4005F8DA9 /* TabViewController.swift */,
+				61D358161ED0C4B800769C03 /* TwoAxisBaseChartView.swift */,
+				614C007B1EC23FA8001543D9 /* Assets.xcassets */,
+				61D358191ED21F9000769C03 /* mapping .xcmappingmodel */,
+				61D3581D1ED23EA200769C03 /* mappingtoold.xcmappingmodel */,
+				619F39051ECB80410074666B /* data.xcdatamodeld */,
+				614C007D1EC23FA8001543D9 /* Main.storyboard */,
+				611AEA7F1EE1E8C600315DA9 /* IOSModelDict.swift */,
+				61AE7F7D1EE2A4140003BC96 /* BatteryStatusItem.swift */,
+				61095B0D1EE537BA00C924AC /* WindowsController.swift */,
+			);
+			path = BatteryStatusShow;
+			sourceTree = "<group>";
+		};
+		614C00881EC23FA8001543D9 /* BatteryStatusShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				614C00891EC23FA8001543D9 /* BatteryStatusShowTests.swift */,
+				614C008B1EC23FA8001543D9 /* Info.plist */,
+			);
+			path = BatteryStatusShowTests;
+			sourceTree = "<group>";
+		};
+		614C00931EC23FA8001543D9 /* BatteryStatusShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				614C00941EC23FA8001543D9 /* BatteryStatusShowUITests.swift */,
+				614C00961EC23FA8001543D9 /* Info.plist */,
+			);
+			path = BatteryStatusShowUITests;
+			sourceTree = "<group>";
+		};
+		61932789247090D0000EA703 /* smcutil */ = {
+			isa = PBXGroup;
+			children = (
+				61932795247091AD000EA703 /* main.m */,
+			);
+			path = smcutil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		614C00731EC23FA8001543D9 /* BatteryStatusShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614C00991EC23FA8001543D9 /* Build configuration list for PBXNativeTarget "BatteryStatusShow" */;
+			buildPhases = (
+				614C00701EC23FA8001543D9 /* Sources */,
+				614C00711EC23FA8001543D9 /* Frameworks */,
+				614C00721EC23FA8001543D9 /* Resources */,
+				61065A6A1ED41439008DB039 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatteryStatusShow;
+			productName = BatteryStatusShow;
+			productReference = 614C00741EC23FA8001543D9 /* BatteryStatusShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		614C00841EC23FA8001543D9 /* BatteryStatusShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614C009C1EC23FA8001543D9 /* Build configuration list for PBXNativeTarget "BatteryStatusShowTests" */;
+			buildPhases = (
+				614C00811EC23FA8001543D9 /* Sources */,
+				614C00821EC23FA8001543D9 /* Frameworks */,
+				614C00831EC23FA8001543D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614C00871EC23FA8001543D9 /* PBXTargetDependency */,
+			);
+			name = BatteryStatusShowTests;
+			productName = BatteryStatusShowTests;
+			productReference = 614C00851EC23FA8001543D9 /* BatteryStatusShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		614C008F1EC23FA8001543D9 /* BatteryStatusShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614C009F1EC23FA8001543D9 /* Build configuration list for PBXNativeTarget "BatteryStatusShowUITests" */;
+			buildPhases = (
+				614C008C1EC23FA8001543D9 /* Sources */,
+				614C008D1EC23FA8001543D9 /* Frameworks */,
+				614C008E1EC23FA8001543D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614C00921EC23FA8001543D9 /* PBXTargetDependency */,
+			);
+			name = BatteryStatusShowUITests;
+			productName = BatteryStatusShowUITests;
+			productReference = 614C00901EC23FA8001543D9 /* BatteryStatusShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		61932787247090D0000EA703 /* smcutil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6193278C247090D0000EA703 /* Build configuration list for PBXNativeTarget "smcutil" */;
+			buildPhases = (
+				61932784247090D0000EA703 /* Sources */,
+				61932785247090D0000EA703 /* Frameworks */,
+				61932786247090D0000EA703 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smcutil;
+			productName = smcutil;
+			productReference = 61932788247090D0000EA703 /* smcutil */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		614C006C1EC23FA8001543D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = sicreativelee;
+				TargetAttributes = {
+					614C00731EC23FA8001543D9 = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					614C00841EC23FA8001543D9 = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+						TestTargetID = 614C00731EC23FA8001543D9;
+					};
+					614C008F1EC23FA8001543D9 = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 614C00731EC23FA8001543D9;
+					};
+					61932787247090D0000EA703 = {
+						CreatedOnToolsVersion = 11.4;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 614C006F1EC23FA8001543D9 /* Build configuration list for PBXProject "BatteryStatusShow" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 614C006B1EC23FA8001543D9;
+			productRefGroup = 614C00751EC23FA8001543D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				614C00731EC23FA8001543D9 /* BatteryStatusShow */,
+				614C00841EC23FA8001543D9 /* BatteryStatusShowTests */,
+				614C008F1EC23FA8001543D9 /* BatteryStatusShowUITests */,
+				61932787247090D0000EA703 /* smcutil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		614C00721EC23FA8001543D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6193279D2470F80A000EA703 /* smcutil in Resources */,
+				61E4D21424718CE900E9860B /* BatteryStatusShow_1.5.zip in Resources */,
+				6143BC111ED9B12100F12627 /* libcrypto.1.0.0.dylib in Resources */,
+				6143BC131ED9B12100F12627 /* libcrypto.dylib in Resources */,
+				61AF6F481EDB0A85005F8DA9 /* iosbattery.csv in Resources */,
+				6143BC141ED9B12100F12627 /* libssl.1.0.0.dylib in Resources */,
+				6143BC161ED9B12100F12627 /* libssl.dylib in Resources */,
+				6143BC171ED9B12100F12627 /* libusb-1.0.0.dylib in Resources */,
+				6143BC191ED9B12100F12627 /* libusb-1.0.dylib in Resources */,
+				6143BC1A1ED9B12100F12627 /* libplist.3.dylib in Resources */,
+				6143BC1C1ED9B12100F12627 /* libplist.dylib in Resources */,
+				6143BC1D1ED9B12100F12627 /* libimobiledevice.6.dylib in Resources */,
+				6143BC1F1ED9B12100F12627 /* libplist++.3.dylib in Resources */,
+				6143BC211ED9B12100F12627 /* libusbmuxd.4.dylib in Resources */,
+				6143BC231ED9B12100F12627 /* libusbmuxd.dylib in Resources */,
+				6143BBE01ED9B0B000F12627 /* libcswift.dylib in Resources */,
+				6143BBE31ED9B0B000F12627 /* libnuron.dylib in Resources */,
+				61E4D21824718FBD00E9860B /* readme_pic1.png in Resources */,
+				6143BBDB1ED9B0B000F12627 /* lib4758cca.dylib in Resources */,
+				6143BBDE1ED9B0B000F12627 /* libcapi.dylib in Resources */,
+				6143BBE11ED9B0B000F12627 /* libgmp.dylib in Resources */,
+				6143BBDC1ED9B0B000F12627 /* libaep.dylib in Resources */,
+				614C007C1EC23FA8001543D9 /* Assets.xcassets in Resources */,
+				61065A5C1ED338A6008DB039 /* battery.csv in Resources */,
+				6143BBE61ED9B0B000F12627 /* libubsec.dylib in Resources */,
+				614C007F1EC23FA8001543D9 /* Main.storyboard in Resources */,
+				6143BBE21ED9B0B000F12627 /* libgost.dylib in Resources */,
+				6143BBE51ED9B0B000F12627 /* libsureware.dylib in Resources */,
+				6143BBDF1ED9B0B000F12627 /* libchil.dylib in Resources */,
+				61E4D21924718FBD00E9860B /* readme_pic2.png in Resources */,
+				6143BBDD1ED9B0B000F12627 /* libatalla.dylib in Resources */,
+				6143BBE41ED9B0B000F12627 /* libpadlock.dylib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614C00831EC23FA8001543D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614C008E1EC23FA8001543D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		614C00701EC23FA8001543D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619F39071ECB80410074666B /* data.xcdatamodeld in Sources */,
+				619F38FE1ECB08370074666B /* BaseChartView.swift in Sources */,
+				61AE7F7E1EE2A4140003BC96 /* BatteryStatusItem.swift in Sources */,
+				614C00A31EC30661001543D9 /* IOBattery.swift in Sources */,
+				61065A5E1ED384D8008DB039 /* IOHID.swift in Sources */,
+				61095B0E1EE537BA00C924AC /* WindowsController.swift in Sources */,
+				61245F701EDAC2A5006940C9 /* iOSDetailViewController.swift in Sources */,
+				6129C5CA1EDDEDBB006A447F /* StatusBaseChartView.swift in Sources */,
+				61D358171ED0C4B800769C03 /* TwoAxisBaseChartView.swift in Sources */,
+				61AF6F461EDAF7D4005F8DA9 /* TabViewController.swift in Sources */,
+				619F390B1ECB8EBC0074666B /* HistoryMO.swift in Sources */,
+				61D3581C1ED237C900769C03 /* CycleEntityMigrationPolicy.swift in Sources */,
+				619F39001ECB53D10074666B /* BatteryViewController.swift in Sources */,
+				619F39091ECB83310074666B /* DataController.swift in Sources */,
+				6129C5C61EDC8D0E006A447F /* LogViewController.swift in Sources */,
+				61AF6F4A1EDB1018005F8DA9 /* PeripheralViewControl.swift in Sources */,
+				6129C5C81EDC8E6D006A447F /* LogView.swift in Sources */,
+				614C00781EC23FA8001543D9 /* AppDelegate.swift in Sources */,
+				61D3581A1ED21F9000769C03 /* mapping .xcmappingmodel in Sources */,
+				615118021EDEEDDA00D11475 /* IOSHistoryViewController.swift in Sources */,
+				619F39041ECB794A0074666B /* PowerViewController.swift in Sources */,
+				619F38FC1ECB078D0074666B /* ChartViewController.swift in Sources */,
+				61821D8E1EC49359005750A0 /* DetailViewController.swift in Sources */,
+				611AEA801EE1E8C600315DA9 /* IOSModelDict.swift in Sources */,
+				619F39021ECB595C0074666B /* HistoryViewController.swift in Sources */,
+				61D3581E1ED23EA200769C03 /* mappingtoold.xcmappingmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614C00811EC23FA8001543D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614C008A1EC23FA8001543D9 /* BatteryStatusShowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614C008C1EC23FA8001543D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614C00951EC23FA8001543D9 /* BatteryStatusShowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61932784247090D0000EA703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61932796247091E0000EA703 /* main.m in Sources */,
+				6193279024709106000EA703 /* SmcHelper.m in Sources */,
+				6193279124709106000EA703 /* smc.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		614C00871EC23FA8001543D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614C00731EC23FA8001543D9 /* BatteryStatusShow */;
+			targetProxy = 614C00861EC23FA8001543D9 /* PBXContainerItemProxy */;
+		};
+		614C00921EC23FA8001543D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614C00731EC23FA8001543D9 /* BatteryStatusShow */;
+			targetProxy = 614C00911EC23FA8001543D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		614C007D1EC23FA8001543D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614C007E1EC23FA8001543D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		614C00971EC23FA8001543D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: s.lee@alumni.warwick.ac.uk (WB283BTRWY)";
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		614C00981EC23FA8001543D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: s.lee@alumni.warwick.ac.uk (WB283BTRWY)";
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		614C009A1EC23FA8001543D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BatteryStatusShow/BatteryStatusShow.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/BatteryStatusShow",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Users/slee/Documents/Development/Battery/BatteryStatusShow/BatteryStatusShow/include/libimobiledevice,
+					/Users/slee/Documents/Development/Battery/BatteryStatusShow/BatteryStatusShow/include/plist,
+				);
+				INFOPLIST_FILE = BatteryStatusShow/Info.plist;
+				INSTALL_PATH = /Applications;
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/../Frameworks @loader_path/../Library/Frameworks @rpath/ $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/BatteryStatusShow",
+					"$(inherited)",
+				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.5;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = sicreatelee.BatteryStatusShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "BatteryStatusShow/Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		614C009B1EC23FA8001543D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BatteryStatusShow/BatteryStatusShow.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/BatteryStatusShow",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Users/slee/Documents/Development/Battery/BatteryStatusShow/BatteryStatusShow/include/libimobiledevice,
+					/Users/slee/Documents/Development/Battery/BatteryStatusShow/BatteryStatusShow/include/plist,
+				);
+				INFOPLIST_FILE = BatteryStatusShow/Info.plist;
+				INSTALL_PATH = /Applications;
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/../Frameworks @loader_path/../Library/Frameworks @rpath/ $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/BatteryStatusShow",
+					"$(inherited)",
+				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.5;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = sicreatelee.BatteryStatusShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "BatteryStatusShow/Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		614C009D1EC23FA8001543D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BatteryStatusShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sicreatelee.BatteryStatusShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatteryStatusShow.app/Contents/MacOS/BatteryStatusShow";
+			};
+			name = Debug;
+		};
+		614C009E1EC23FA8001543D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BatteryStatusShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sicreatelee.BatteryStatusShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatteryStatusShow.app/Contents/MacOS/BatteryStatusShow";
+			};
+			name = Release;
+		};
+		614C00A01EC23FA8001543D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7698T37TAB;
+				INFOPLIST_FILE = BatteryStatusShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sicreatelee.BatteryStatusShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = BatteryStatusShow;
+			};
+			name = Debug;
+		};
+		614C00A11EC23FA8001543D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7698T37TAB;
+				INFOPLIST_FILE = BatteryStatusShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sicreatelee.BatteryStatusShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = BatteryStatusShow;
+			};
+			name = Release;
+		};
+		6193278D247090D0000EA703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatteryStatusShow/smcutil-Prefix.pch";
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		6193278E247090D0000EA703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatteryStatusShow/smcutil-Prefix.pch";
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		614C006F1EC23FA8001543D9 /* Build configuration list for PBXProject "BatteryStatusShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614C00971EC23FA8001543D9 /* Debug */,
+				614C00981EC23FA8001543D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614C00991EC23FA8001543D9 /* Build configuration list for PBXNativeTarget "BatteryStatusShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614C009A1EC23FA8001543D9 /* Debug */,
+				614C009B1EC23FA8001543D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614C009C1EC23FA8001543D9 /* Build configuration list for PBXNativeTarget "BatteryStatusShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614C009D1EC23FA8001543D9 /* Debug */,
+				614C009E1EC23FA8001543D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614C009F1EC23FA8001543D9 /* Build configuration list for PBXNativeTarget "BatteryStatusShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614C00A01EC23FA8001543D9 /* Debug */,
+				614C00A11EC23FA8001543D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6193278C247090D0000EA703 /* Build configuration list for PBXNativeTarget "smcutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6193278D247090D0000EA703 /* Debug */,
+				6193278E247090D0000EA703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		619F39051ECB80410074666B /* data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61D358181ED217F600769C03 /* v2.xcdatamodel */,
+				619F39061ECB80410074666B /* data.xcdatamodel */,
+			);
+			currentVersion = 61D358181ED217F600769C03 /* v2.xcdatamodel */;
+			path = data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 614C006C1EC23FA8001543D9 /* Project object */;
+}

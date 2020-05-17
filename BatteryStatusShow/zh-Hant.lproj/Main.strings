@@ -1,0 +1,321 @@
+
+/* Class = "NSTextFieldCell"; title = "battery_full_Num"; ObjectID = "00F-s1-ipT"; */
+"00F-s1-ipT.title" = "battery_full_Num";
+
+/* Class = "NSTextFieldCell"; title = "Voltage :"; ObjectID = "0Bj-Mi-XZ8"; */
+"0Bj-Mi-XZ8.title" = "Voltage :";
+
+/* Class = "NSButtonCell"; title = "Stop"; ObjectID = "0Ih-jy-K0z"; */
+"0Ih-jy-K0z.title" = "Stop";
+
+/* Class = "NSTextFieldCell"; title = "batterypercent_Num"; ObjectID = "0Vq-y8-O3J"; */
+"0Vq-y8-O3J.title" = "batterypercent_Num";
+
+/* Class = "NSTextFieldCell"; title = "watt_Num"; ObjectID = "0d3-Hd-pzJ"; */
+"0d3-Hd-pzJ.title" = "watt_Num";
+
+/* Class = "NSTextFieldCell"; title = "temperature_Num"; ObjectID = "1DG-3S-XgT"; */
+"1DG-3S-XgT.title" = "temperature_Num";
+
+/* Class = "NSMenuItem"; title = "BatteryStatusShow"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "BatteryStatusShow";
+
+/* Class = "NSTextFieldCell"; title = "Manufacturer :"; ObjectID = "23u-VR-fpd"; */
+"23u-VR-fpd.title" = "Manufacturer :";
+
+/* Class = "NSTextFieldCell"; title = "Battery :"; ObjectID = "2G0-nV-N82"; */
+"2G0-nV-N82.title" = "Battery :";
+
+/* Class = "NSTextFieldCell"; title = "Charging"; ObjectID = "3DQ-UE-Pom"; */
+"3DQ-UE-Pom.title" = "Charging";
+
+/* Class = "NSTextFieldCell"; title = "ma_Num"; ObjectID = "3ML-il-Y2w"; */
+"3ML-il-Y2w.title" = "ma_Num";
+
+/* Class = "NSTextFieldCell"; title = "adaptor_manf"; ObjectID = "4AB-1J-egb"; */
+"4AB-1J-egb.title" = "adaptor_manf";
+
+/* Class = "NSMenuItem"; title = "Quit BatteryStatusShow"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit BatteryStatusShow";
+
+/* Class = "NSMenuItem"; title = "About BatteryStatusShow"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About BatteryStatusShow";
+
+/* Class = "NSTextFieldCell"; title = "Manuf. Date :"; ObjectID = "63B-4l-hMN"; */
+"63B-4l-hMN.title" = "Manuf. Date :";
+
+/* Class = "NSButtonCell"; title = "History"; ObjectID = "79o-nH-O1L"; */
+"79o-nH-O1L.title" = "History";
+
+/* Class = "NSTextFieldCell"; title = "Watts"; ObjectID = "80X-Xa-VDP"; */
+"80X-Xa-VDP.title" = "Watts";
+
+/* Class = "NSTextFieldCell"; title = "adaptor_watt"; ObjectID = "81n-yI-cAQ"; */
+"81n-yI-cAQ.title" = "adaptor_watt";
+
+/* Class = "NSTextFieldCell"; title = "watt_Num"; ObjectID = "8pf-wz-nzk"; */
+"8pf-wz-nzk.title" = "watt_Num";
+
+/* Class = "NSTextFieldCell"; title = "Voltage"; ObjectID = "90a-Ha-l3e"; */
+"90a-Ha-l3e.title" = "Voltage";
+
+/* Class = "NSTextFieldCell"; title = "Current"; ObjectID = "A6P-6A-EFg"; */
+"A6P-6A-EFg.title" = "Current";
+
+/* Class = "NSTextFieldCell"; title = "Charge Level:"; ObjectID = "AHp-A5-hcE"; */
+"AHp-A5-hcE.title" = "Charge Level:";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSTextFieldCell"; title = "model_id"; ObjectID = "AlX-ZZ-XMr"; */
+"AlX-ZZ-XMr.title" = "model_id";
+
+/* Class = "NSTextFieldCell"; title = "Watts"; ObjectID = "CNX-7G-DBc"; */
+"CNX-7G-DBc.title" = "Watts";
+
+/* Class = "NSTextFieldCell"; title = "Capacity:"; ObjectID = "DM7-gc-ioh"; */
+"DM7-gc-ioh.title" = "Capacity:";
+
+/* Class = "NSTextFieldCell"; title = "Manufacturer :"; ObjectID = "DWM-Qp-Rp4"; */
+"DWM-Qp-Rp4.title" = "Manufacturer :";
+
+/* Class = "NSTextFieldCell"; title = "serial_id"; ObjectID = "EEM-IK-ILt"; */
+"EEM-IK-ILt.title" = "serial_id";
+
+/* Class = "NSTextFieldCell"; title = "Avg. Power:"; ObjectID = "EFq-vB-J8y"; */
+"EFq-vB-J8y.title" = "Avg. Power:";
+
+/* Class = "NSTextFieldCell"; title = "Adaptor:"; ObjectID = "EM7-RH-ccT"; */
+"EM7-RH-ccT.title" = "Adaptor:";
+
+/* Class = "NSTextFieldCell"; title = "mac_name"; ObjectID = "EQs-hW-OGy"; */
+"EQs-hW-OGy.title" = "mac_name";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v"; */
+"H8h-7b-M4v.title" = "View";
+
+/* Class = "NSTextFieldCell"; title = "capacity_Num"; ObjectID = "HCN-VS-rUb"; */
+"HCN-VS-rUb.title" = "capacity_Num";
+
+/* Class = "NSButtonCell"; title = "Start"; ObjectID = "HvD-ah-iv5"; */
+"HvD-ah-iv5.title" = "Start";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO"; */
+"HyV-fh-RgO.title" = "View";
+
+/* Class = "NSWindow"; title = "Battery Status Show"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Battery Status Show";
+
+/* Class = "NSTextFieldCell"; title = "Voltage_Num"; ObjectID = "JY7-jN-9bu"; */
+"JY7-jN-9bu.title" = "Voltage_Num";
+
+/* Class = "NSTextFieldCell"; title = "Temperature:"; ObjectID = "Jv0-AS-mb6"; */
+"Jv0-AS-mb6.title" = "Temperature:";
+
+/* Class = "NSTextFieldCell"; title = "serial_id"; ObjectID = "K6s-ai-olR"; */
+"K6s-ai-olR.title" = "serial_id";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Vist Website"; ObjectID = "Kie-0Q-T9w"; */
+"Kie-0Q-T9w.title" = "Vist Website";
+
+/* Class = "NSTextFieldCell"; title = "Cycle:"; ObjectID = "KkJ-Qx-6qd"; */
+"KkJ-Qx-6qd.title" = "Cycle:";
+
+/* Class = "NSTextFieldCell"; title = "model_id"; ObjectID = "Kxs-1O-mR4"; */
+"Kxs-1O-mR4.title" = "model_id";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
+"LE2-aR-0XJ.title" = "Bring All to Front";
+
+/* Class = "NSTextFieldCell"; title = "estimated_Num"; ObjectID = "NFv-yr-SgZ"; */
+"NFv-yr-SgZ.title" = "estimated_Num";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
+"NMo-om-nkz.title" = "Services";
+
+/* Class = "NSTabViewItem"; label = "macOS"; ObjectID = "NbB-rq-BQW"; */
+"NbB-rq-BQW.label" = "macOS";
+
+/* Class = "NSTextFieldCell"; title = "Manufacutrer"; ObjectID = "OCk-2B-jQn"; */
+"OCk-2B-jQn.title" = "Manufacutrer";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
+"OY7-WF-poV.title" = "Minimize";
+
+/* Class = "NSMenuItem"; title = "Hide BatteryStatusShow"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide BatteryStatusShow";
+
+/* Class = "NSTextFieldCell"; title = "cycle_Num"; ObjectID = "PIr-kF-OTc"; */
+"PIr-kF-OTc.title" = "cycle_Num";
+
+/* Class = "NSTextFieldCell"; title = "Health :"; ObjectID = "Plo-ld-UBf"; */
+"Plo-ld-UBf.title" = "Health :";
+
+/* Class = "NSTextFieldCell"; title = "Serial No :"; ObjectID = "QAh-wE-0Ep"; */
+"QAh-wE-0Ep.title" = "Serial No :";
+
+/* Class = "NSTextFieldCell"; title = "Battery :"; ObjectID = "R2Z-Nn-652"; */
+"R2Z-Nn-652.title" = "Battery :";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
+"R4o-n2-Eq4.title" = "Zoom";
+
+/* Class = "NSTextFieldCell"; title = "Power :"; ObjectID = "R76-nc-zkQ"; */
+"R76-nc-zkQ.title" = "Power :";
+
+/* Class = "NSTextFieldCell"; title = "Capacity:"; ObjectID = "RHr-ul-XKd"; */
+"RHr-ul-XKd.title" = "Capacity:";
+
+/* Class = "NSTextFieldCell"; title = "Power :"; ObjectID = "RzD-09-wXk"; */
+"RzD-09-wXk.title" = "Power :";
+
+/* Class = "NSTextFieldCell"; title = "Estimated Time:"; ObjectID = "S9z-1D-tJs"; */
+"S9z-1D-tJs.title" = "Estimated Time:";
+
+/* Class = "NSTextFieldCell"; title = "health_id"; ObjectID = "Syf-xN-KDg"; */
+"Syf-xN-KDg.title" = "health_id";
+
+/* Class = "NSTextFieldCell"; title = "Manuf. Date:"; ObjectID = "TAJ-VD-xDQ"; */
+"TAJ-VD-xDQ.title" = "Manuf. Date:";
+
+/* Class = "NSTextFieldCell"; title = "mac_serialno"; ObjectID = "TPd-ag-B5A"; */
+"TPd-ag-B5A.title" = "mac_serialno";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "avgpower_Num"; ObjectID = "Tek-4p-Ady"; */
+"Tek-4p-Ady.title" = "avgpower_Num";
+
+/* Class = "NSTextFieldCell"; title = "avgpower_Num"; ObjectID = "UYX-Yi-pOj"; */
+"UYX-Yi-pOj.title" = "avgpower_Num";
+
+/* Class = "NSTextFieldCell"; title = "cycle_Num"; ObjectID = "V4e-dr-TL1"; */
+"V4e-dr-TL1.title" = "cycle_Num";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSTextFieldCell"; title = "Serial No :"; ObjectID = "Wps-m4-jvQ"; */
+"Wps-m4-jvQ.title" = "Serial No :";
+
+/* Class = "NSTextFieldCell"; title = "adaptor_amperage"; ObjectID = "Xd0-9u-1Yo"; */
+"Xd0-9u-1Yo.title" = "adaptor_amperage";
+
+/* Class = "NSButtonCell"; title = "Export"; ObjectID = "XnA-RS-tVQ"; */
+"XnA-RS-tVQ.title" = "Export";
+
+/* Class = "NSTextFieldCell"; title = "Curent :"; ObjectID = "YKS-W1-VMB"; */
+"YKS-W1-VMB.title" = "Curent :";
+
+/* Class = "NSTextFieldCell"; title = "Avg. Power:"; ObjectID = "ZM6-91-g99"; */
+"ZM6-91-g99.title" = "Avg. Power:";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "charge_Num"; ObjectID = "chQ-qG-Rzx"; */
+"chQ-qG-Rzx.title" = "charge_Num";
+
+/* Class = "NSTextFieldCell"; title = "capacity_Num"; ObjectID = "ckd-jL-k9z"; */
+"ckd-jL-k9z.title" = "capacity_Num";
+
+/* Class = "NSTextFieldCell"; title = "Voltage_Num"; ObjectID = "d7L-24-RhP"; */
+"d7L-24-RhP.title" = "Voltage_Num";
+
+/* Class = "NSTextFieldCell"; title = "ma_Num"; ObjectID = "ePS-Bq-0yA"; */
+"ePS-Bq-0yA.title" = "ma_Num";
+
+/* Class = "NSMenuItem"; title = "Always on Top"; ObjectID = "eal-bW-eNT"; */
+"eal-bW-eNT.title" = "Always on Top";
+
+/* Class = "NSTextFieldCell"; title = "manufdate_id"; ObjectID = "erz-Qm-tJZ"; */
+"erz-Qm-tJZ.title" = "manufdate_id";
+
+/* Class = "NSButtonCell"; title = "Reset"; ObjectID = "fSg-SG-52H"; */
+"fSg-SG-52H.title" = "Reset";
+
+/* Class = "NSTextFieldCell"; title = "Charging"; ObjectID = "frq-dW-cRb"; */
+"frq-dW-cRb.title" = "Charging";
+
+/* Class = "NSButtonCell"; title = "Label"; ObjectID = "gEY-vi-bWL"; */
+"gEY-vi-bWL.title" = "Label";
+
+/* Class = "NSTextFieldCell"; title = "Cycle:"; ObjectID = "gLP-xN-hmm"; */
+"gLP-xN-hmm.title" = "Cycle:";
+
+/* Class = "NSTextFieldCell"; title = "battery_full_Num"; ObjectID = "gVo-J1-05w"; */
+"gVo-J1-05w.title" = "battery_full_Num";
+
+/* Class = "NSTextFieldCell"; title = "adaptor_watt"; ObjectID = "hhe-T9-2Dl"; */
+"hhe-T9-2Dl.title" = "adaptor_watt";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
+"hz9-B4-Xy5.title" = "Services";
+
+/* Class = "NSTextFieldCell"; title = "batterypercent_Num"; ObjectID = "jyd-Qs-mWi"; */
+"jyd-Qs-mWi.title" = "batterypercent_Num";
+
+/* Class = "NSTextFieldCell"; title = "manuf_id"; ObjectID = "kOO-Ah-1C3"; */
+"kOO-Ah-1C3.title" = "manuf_id";
+
+/* Class = "NSTextFieldCell"; title = "iOSdesc"; ObjectID = "nBa-h4-KLE"; */
+"nBa-h4-KLE.title" = "iOSdesc";
+
+/* Class = "NSTextFieldCell"; title = "Name"; ObjectID = "nRr-jZ-2Yp"; */
+"nRr-jZ-2Yp.title" = "Name";
+
+/* Class = "NSTextFieldCell"; title = "adaptor_name"; ObjectID = "pGC-td-sgB"; */
+"pGC-td-sgB.title" = "adaptor_name";
+
+/* Class = "NSTextFieldCell"; title = "manuf_id"; ObjectID = "pKP-Qj-oL6"; */
+"pKP-Qj-oL6.title" = "manuf_id";
+
+/* Class = "NSTextFieldCell"; title = "iOSserialno"; ObjectID = "pNc-Wa-w3k"; */
+"pNc-Wa-w3k.title" = "iOSserialno";
+
+/* Class = "NSTextFieldCell"; title = "Temperature:"; ObjectID = "pTT-xe-XB2"; */
+"pTT-xe-XB2.title" = "Temperature:";
+
+/* Class = "NSTextFieldCell"; title = "Adaptor :"; ObjectID = "pfQ-l1-vEK"; */
+"pfQ-l1-vEK.title" = "Adaptor :";
+
+/* Class = "NSTextFieldCell"; title = "mac_desc"; ObjectID = "qQZ-FW-cXG"; */
+"qQZ-FW-cXG.title" = "mac_desc";
+
+/* Class = "NSTextFieldCell"; title = "adaptor_name"; ObjectID = "rvu-QQ-RBU"; */
+"rvu-QQ-RBU.title" = "adaptor_name";
+
+/* Class = "NSTextFieldCell"; title = "manufdate_id"; ObjectID = "sEZ-Wp-dvw"; */
+"sEZ-Wp-dvw.title" = "manufdate_id";
+
+/* Class = "NSTextFieldCell"; title = "Curent :"; ObjectID = "sGf-Wv-uvZ"; */
+"sGf-Wv-uvZ.title" = "Curent :";
+
+/* Class = "NSTextFieldCell"; title = "Voltage :"; ObjectID = "sdA-Ty-rc9"; */
+"sdA-Ty-rc9.title" = "Voltage :";
+
+/* Class = "NSMenuItem"; title = "Show Toolbar"; ObjectID = "snW-S8-Cw5"; */
+"snW-S8-Cw5.title" = "Show Toolbar";
+
+/* Class = "NSTextFieldCell"; title = "temperature_Num"; ObjectID = "tIJ-6d-uw3"; */
+"tIJ-6d-uw3.title" = "temperature_Num";
+
+/* Class = "NSMenu"; title = "BatteryStatusShow"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "BatteryStatusShow";
+
+/* Class = "NSTextFieldCell"; title = "iOSName"; ObjectID = "uzj-x9-Vym"; */
+"uzj-x9-Vym.title" = "iOSName";
+
+/* Class = "NSTextFieldCell"; title = "adaptor_voltage"; ObjectID = "voB-Mg-QMo"; */
+"voB-Mg-QMo.title" = "adaptor_voltage";
+
+/* Class = "NSTabViewItem"; label = "Graph"; ObjectID = "wUG-y3-I9l"; */
+"wUG-y3-I9l.label" = "Graph";
+
+/* Class = "NSTextFieldCell"; title = "Name"; ObjectID = "zgL-Lv-FmJ"; */
+"zgL-Lv-FmJ.title" = "Name";
