@@ -21,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     static let alwayontop_notify = AppDelegate.programprefix + ".alwayontopnotify"
 
     @IBAction func linkHomePage(_ sender: Any) {
-        if let url = URL(string: "https://sitechprog.blogspot.hk"), NSWorkspace.shared.open(url) {
+        if let url = URL(string: "https://github.com/sicreative/BatteryStatusShow"), NSWorkspace.shared.open(url) {
             
         }
     }

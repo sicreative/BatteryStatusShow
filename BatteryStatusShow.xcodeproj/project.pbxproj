@@ -10,60 +10,11 @@
 		61065A5C1ED338A6008DB039 /* battery.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61065A5B1ED338A6008DB039 /* battery.csv */; };
 		61065A5E1ED384D8008DB039 /* IOHID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61065A5D1ED384D8008DB039 /* IOHID.swift */; };
 		61095B0E1EE537BA00C924AC /* WindowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61095B0D1EE537BA00C924AC /* WindowsController.swift */; };
-		611453971ED942A80049A78A /* libimobiledevice.6.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 611453931ED941640049A78A /* libimobiledevice.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		611453991ED942A80049A78A /* libplist++.3.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6114538F1ED941460049A78A /* libplist++.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		611AEA801EE1E8C600315DA9 /* IOSModelDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611AEA7F1EE1E8C600315DA9 /* IOSModelDict.swift */; };
 		61245F701EDAC2A5006940C9 /* iOSDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61245F6F1EDAC2A5006940C9 /* iOSDetailViewController.swift */; };
 		6129C5C61EDC8D0E006A447F /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129C5C51EDC8D0E006A447F /* LogViewController.swift */; };
 		6129C5C81EDC8E6D006A447F /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129C5C71EDC8E6D006A447F /* LogView.swift */; };
 		6129C5CA1EDDEDBB006A447F /* StatusBaseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129C5C91EDDEDBB006A447F /* StatusBaseChartView.swift */; };
-		6143BBBC1ED9455900F12627 /* libplist.3.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBB61ED9453C00F12627 /* libplist.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BBBE1ED9455900F12627 /* libplist.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBB81ED9453C00F12627 /* libplist.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BBBF1ED94ABD00F12627 /* libimobiledevice.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 611453931ED941640049A78A /* libimobiledevice.6.dylib */; };
-		6143BBDB1ED9B0B000F12627 /* lib4758cca.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBCF1ED9B0B000F12627 /* lib4758cca.dylib */; };
-		6143BBDC1ED9B0B000F12627 /* libaep.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD01ED9B0B000F12627 /* libaep.dylib */; };
-		6143BBDD1ED9B0B000F12627 /* libatalla.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD11ED9B0B000F12627 /* libatalla.dylib */; };
-		6143BBDE1ED9B0B000F12627 /* libcapi.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD21ED9B0B000F12627 /* libcapi.dylib */; };
-		6143BBDF1ED9B0B000F12627 /* libchil.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD31ED9B0B000F12627 /* libchil.dylib */; };
-		6143BBE01ED9B0B000F12627 /* libcswift.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD41ED9B0B000F12627 /* libcswift.dylib */; };
-		6143BBE11ED9B0B000F12627 /* libgmp.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD51ED9B0B000F12627 /* libgmp.dylib */; };
-		6143BBE21ED9B0B000F12627 /* libgost.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD61ED9B0B000F12627 /* libgost.dylib */; };
-		6143BBE31ED9B0B000F12627 /* libnuron.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD71ED9B0B000F12627 /* libnuron.dylib */; };
-		6143BBE41ED9B0B000F12627 /* libpadlock.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD81ED9B0B000F12627 /* libpadlock.dylib */; };
-		6143BBE51ED9B0B000F12627 /* libsureware.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBD91ED9B0B000F12627 /* libsureware.dylib */; };
-		6143BBE61ED9B0B000F12627 /* libubsec.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBDA1ED9B0B000F12627 /* libubsec.dylib */; };
-		6143BBF91ED9B10600F12627 /* libcrypto.1.0.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBE71ED9B0BE00F12627 /* libcrypto.1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BBFB1ED9B10600F12627 /* libcrypto.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBE91ED9B0BE00F12627 /* libcrypto.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BBFC1ED9B10600F12627 /* libssl.1.0.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBEA1ED9B0BE00F12627 /* libssl.1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BBFE1ED9B10600F12627 /* libssl.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBEC1ED9B0BE00F12627 /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BBFF1ED9B10600F12627 /* lib4758cca.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBCF1ED9B0B000F12627 /* lib4758cca.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC001ED9B10600F12627 /* libaep.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD01ED9B0B000F12627 /* libaep.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC011ED9B10600F12627 /* libatalla.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD11ED9B0B000F12627 /* libatalla.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC021ED9B10600F12627 /* libcapi.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD21ED9B0B000F12627 /* libcapi.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC031ED9B10600F12627 /* libchil.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD31ED9B0B000F12627 /* libchil.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC041ED9B10600F12627 /* libcswift.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD41ED9B0B000F12627 /* libcswift.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC051ED9B10600F12627 /* libgmp.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD51ED9B0B000F12627 /* libgmp.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC061ED9B10600F12627 /* libgost.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD61ED9B0B000F12627 /* libgost.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC071ED9B10600F12627 /* libnuron.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD71ED9B0B000F12627 /* libnuron.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC081ED9B10600F12627 /* libpadlock.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD81ED9B0B000F12627 /* libpadlock.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC091ED9B10600F12627 /* libsureware.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBD91ED9B0B000F12627 /* libsureware.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC0A1ED9B10600F12627 /* libubsec.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBDA1ED9B0B000F12627 /* libubsec.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC0B1ED9B10600F12627 /* libusb-1.0.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBC91ED9B05200F12627 /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC0D1ED9B10600F12627 /* libusb-1.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBCB1ED9B05200F12627 /* libusb-1.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC0E1ED9B10600F12627 /* libusbmuxd.4.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBF31ED9B0EF00F12627 /* libusbmuxd.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC101ED9B10600F12627 /* libusbmuxd.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBF51ED9B0EF00F12627 /* libusbmuxd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6143BC111ED9B12100F12627 /* libcrypto.1.0.0.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBE71ED9B0BE00F12627 /* libcrypto.1.0.0.dylib */; };
-		6143BC131ED9B12100F12627 /* libcrypto.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBE91ED9B0BE00F12627 /* libcrypto.dylib */; };
-		6143BC141ED9B12100F12627 /* libssl.1.0.0.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBEA1ED9B0BE00F12627 /* libssl.1.0.0.dylib */; };
-		6143BC161ED9B12100F12627 /* libssl.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBEC1ED9B0BE00F12627 /* libssl.dylib */; };
-		6143BC171ED9B12100F12627 /* libusb-1.0.0.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBC91ED9B05200F12627 /* libusb-1.0.0.dylib */; };
-		6143BC191ED9B12100F12627 /* libusb-1.0.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBCB1ED9B05200F12627 /* libusb-1.0.dylib */; };
-		6143BC1A1ED9B12100F12627 /* libplist.3.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBB61ED9453C00F12627 /* libplist.3.dylib */; };
-		6143BC1C1ED9B12100F12627 /* libplist.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBB81ED9453C00F12627 /* libplist.dylib */; };
-		6143BC1D1ED9B12100F12627 /* libimobiledevice.6.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 611453931ED941640049A78A /* libimobiledevice.6.dylib */; };
-		6143BC1F1ED9B12100F12627 /* libplist++.3.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6114538F1ED941460049A78A /* libplist++.3.dylib */; };
-		6143BC211ED9B12100F12627 /* libusbmuxd.4.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBF31ED9B0EF00F12627 /* libusbmuxd.4.dylib */; };
-		6143BC231ED9B12100F12627 /* libusbmuxd.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 6143BBF51ED9B0EF00F12627 /* libusbmuxd.dylib */; };
 		614C00781EC23FA8001543D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614C00771EC23FA8001543D9 /* AppDelegate.swift */; };
 		614C007C1EC23FA8001543D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614C007B1EC23FA8001543D9 /* Assets.xcassets */; };
 		614C007F1EC23FA8001543D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614C007D1EC23FA8001543D9 /* Main.storyboard */; };
@@ -77,7 +28,6 @@
 		6193279324709114000EA703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193277A24708393000EA703 /* Foundation.framework */; };
 		619327942470911A000EA703 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193276824707EAD000EA703 /* IOKit.framework */; };
 		61932796247091E0000EA703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61932795247091AD000EA703 /* main.m */; };
-		6193279D2470F80A000EA703 /* smcutil in Resources */ = {isa = PBXBuildFile; fileRef = 61932788247090D0000EA703 /* smcutil */; };
 		619F38FC1ECB078D0074666B /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F38FB1ECB078D0074666B /* ChartViewController.swift */; };
 		619F38FE1ECB08370074666B /* BaseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F38FD1ECB08370074666B /* BaseChartView.swift */; };
 		619F39001ECB53D10074666B /* BatteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F38FF1ECB53D10074666B /* BatteryViewController.swift */; };
@@ -90,12 +40,26 @@
 		61AF6F461EDAF7D4005F8DA9 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF6F451EDAF7D4005F8DA9 /* TabViewController.swift */; };
 		61AF6F481EDB0A85005F8DA9 /* iosbattery.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61AF6F471EDB0A85005F8DA9 /* iosbattery.csv */; };
 		61AF6F4A1EDB1018005F8DA9 /* PeripheralViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF6F491EDB1018005F8DA9 /* PeripheralViewControl.swift */; };
-		61B2CC771EDAE909001097D6 /* libplist.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6143BBB61ED9453C00F12627 /* libplist.3.dylib */; };
+		61CDE1072473088E00B56900 /* libcrypto.1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDDFD62472FDF700B56900 /* libcrypto.1.0.0.dylib */; };
+		61CDE1082473088E00B56900 /* libcrypto.1.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFD62472FDF700B56900 /* libcrypto.1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		61CDE1092473088E00B56900 /* libimobiledevice.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDDFD42472FDF700B56900 /* libimobiledevice.6.dylib */; };
+		61CDE10A2473088E00B56900 /* libimobiledevice.6.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFD42472FDF700B56900 /* libimobiledevice.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		61CDE10F2473088E00B56900 /* libplist++.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDDFDC2472FDF700B56900 /* libplist++.3.dylib */; };
+		61CDE1102473088E00B56900 /* libplist++.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFDC2472FDF700B56900 /* libplist++.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		61CDE1112473088E00B56900 /* libssl.1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDDFD52472FDF700B56900 /* libssl.1.0.0.dylib */; };
+		61CDE1122473088E00B56900 /* libssl.1.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFD52472FDF700B56900 /* libssl.1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		61CDE1172473088F00B56900 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDDFDB2472FDF700B56900 /* libxml2.2.dylib */; };
+		61CDE1182473088F00B56900 /* libxml2.2.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFDB2472FDF700B56900 /* libxml2.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		61CDE12724730C5200B56900 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDDFD92472FDF700B56900 /* libusb-1.0.0.dylib */; };
+		61CDE12824730C5200B56900 /* libusb-1.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFD92472FDF700B56900 /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		61CDE12924730C5200B56900 /* libplist.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDDFD82472FDF700B56900 /* libplist.3.dylib */; };
+		61CDE12A24730C5200B56900 /* libplist.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFD82472FDF700B56900 /* libplist.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		61CDE12B247313C200B56900 /* libusbmuxd.4.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFB72472FDE400B56900 /* libusbmuxd.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		61CDE1312473204800B56900 /* smcutil in Resources */ = {isa = PBXBuildFile; fileRef = 61932788247090D0000EA703 /* smcutil */; };
 		61D358171ED0C4B800769C03 /* TwoAxisBaseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D358161ED0C4B800769C03 /* TwoAxisBaseChartView.swift */; };
 		61D3581A1ED21F9000769C03 /* mapping .xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 61D358191ED21F9000769C03 /* mapping .xcmappingmodel */; };
 		61D3581C1ED237C900769C03 /* CycleEntityMigrationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3581B1ED237C900769C03 /* CycleEntityMigrationPolicy.swift */; };
 		61D3581E1ED23EA200769C03 /* mappingtoold.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 61D3581D1ED23EA200769C03 /* mappingtoold.xcmappingmodel */; };
-		61E4D21424718CE900E9860B /* BatteryStatusShow_1.5.zip in Resources */ = {isa = PBXBuildFile; fileRef = 61E4D21324718CE900E9860B /* BatteryStatusShow_1.5.zip */; };
 		61E4D21824718FBD00E9860B /* readme_pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E4D21624718FBD00E9860B /* readme_pic1.png */; };
 		61E4D21924718FBD00E9860B /* readme_pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E4D21724718FBD00E9860B /* readme_pic2.png */; };
 /* End PBXBuildFile section */
@@ -118,40 +82,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		61065A6A1ED41439008DB039 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				6143BBF91ED9B10600F12627 /* libcrypto.1.0.0.dylib in Embed Frameworks */,
-				6143BBFB1ED9B10600F12627 /* libcrypto.dylib in Embed Frameworks */,
-				6143BBFC1ED9B10600F12627 /* libssl.1.0.0.dylib in Embed Frameworks */,
-				6143BBFE1ED9B10600F12627 /* libssl.dylib in Embed Frameworks */,
-				6143BBFF1ED9B10600F12627 /* lib4758cca.dylib in Embed Frameworks */,
-				6143BC001ED9B10600F12627 /* libaep.dylib in Embed Frameworks */,
-				6143BC011ED9B10600F12627 /* libatalla.dylib in Embed Frameworks */,
-				6143BC021ED9B10600F12627 /* libcapi.dylib in Embed Frameworks */,
-				6143BC031ED9B10600F12627 /* libchil.dylib in Embed Frameworks */,
-				6143BC041ED9B10600F12627 /* libcswift.dylib in Embed Frameworks */,
-				6143BC051ED9B10600F12627 /* libgmp.dylib in Embed Frameworks */,
-				6143BC061ED9B10600F12627 /* libgost.dylib in Embed Frameworks */,
-				6143BC071ED9B10600F12627 /* libnuron.dylib in Embed Frameworks */,
-				6143BC081ED9B10600F12627 /* libpadlock.dylib in Embed Frameworks */,
-				6143BC091ED9B10600F12627 /* libsureware.dylib in Embed Frameworks */,
-				6143BC0A1ED9B10600F12627 /* libubsec.dylib in Embed Frameworks */,
-				6143BC0B1ED9B10600F12627 /* libusb-1.0.0.dylib in Embed Frameworks */,
-				6143BC0D1ED9B10600F12627 /* libusb-1.0.dylib in Embed Frameworks */,
-				6143BC0E1ED9B10600F12627 /* libusbmuxd.4.dylib in Embed Frameworks */,
-				6143BC101ED9B10600F12627 /* libusbmuxd.dylib in Embed Frameworks */,
-				6143BBBC1ED9455900F12627 /* libplist.3.dylib in Embed Frameworks */,
-				6143BBBE1ED9455900F12627 /* libplist.dylib in Embed Frameworks */,
-				611453971ED942A80049A78A /* libimobiledevice.6.dylib in Embed Frameworks */,
-				611453991ED942A80049A78A /* libplist++.3.dylib in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		61932786247090D0000EA703 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +90,24 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		61CDE1192473088F00B56900 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				61CDE12B247313C200B56900 /* libusbmuxd.4.dylib in Embed Libraries */,
+				61CDE10A2473088E00B56900 /* libimobiledevice.6.dylib in Embed Libraries */,
+				61CDE1122473088E00B56900 /* libssl.1.0.0.dylib in Embed Libraries */,
+				61CDE1082473088E00B56900 /* libcrypto.1.0.0.dylib in Embed Libraries */,
+				61CDE12A24730C5200B56900 /* libplist.3.dylib in Embed Libraries */,
+				61CDE12824730C5200B56900 /* libusb-1.0.0.dylib in Embed Libraries */,
+				61CDE1102473088E00B56900 /* libplist++.3.dylib in Embed Libraries */,
+				61CDE1182473088F00B56900 /* libxml2.2.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -235,12 +183,74 @@
 		61AF6F451EDAF7D4005F8DA9 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		61AF6F471EDB0A85005F8DA9 /* iosbattery.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iosbattery.csv; sourceTree = "<group>"; };
 		61AF6F491EDB1018005F8DA9 /* PeripheralViewControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralViewControl.swift; sourceTree = "<group>"; };
+		61CDDFA42472FC8000B56900 /* libltdl.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libltdl.7.dylib; path = BatteryStatusShow/libltdl.7.dylib; sourceTree = "<group>"; };
+		61CDDFA52472FC8000B56900 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = BatteryStatusShow/libxml2.2.dylib; sourceTree = "<group>"; };
+		61CDDFAA2472FDE400B56900 /* libgost.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libgost.dylib; path = BatteryStatusShow/libgost.dylib; sourceTree = "<group>"; };
+		61CDDFAB2472FDE400B56900 /* libimobiledevice.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.6.dylib; path = BatteryStatusShow/libimobiledevice.6.dylib; sourceTree = "<group>"; };
+		61CDDFAC2472FDE400B56900 /* libcswift.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libcswift.dylib; path = BatteryStatusShow/libcswift.dylib; sourceTree = "<group>"; };
+		61CDDFAD2472FDE400B56900 /* lib4758cca.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = lib4758cca.dylib; path = BatteryStatusShow/lib4758cca.dylib; sourceTree = "<group>"; };
+		61CDDFAE2472FDE400B56900 /* libgmp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libgmp.dylib; path = BatteryStatusShow/libgmp.dylib; sourceTree = "<group>"; };
+		61CDDFAF2472FDE400B56900 /* libltdl.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libltdl.7.dylib; path = BatteryStatusShow/libltdl.7.dylib; sourceTree = "<group>"; };
+		61CDDFB02472FDE400B56900 /* libcrypto.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.0.0.dylib; path = BatteryStatusShow/libcrypto.1.0.0.dylib; sourceTree = "<group>"; };
+		61CDDFB12472FDE400B56900 /* libnuron.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libnuron.dylib; path = BatteryStatusShow/libnuron.dylib; sourceTree = "<group>"; };
+		61CDDFB22472FDE400B56900 /* libpadlock.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libpadlock.dylib; path = BatteryStatusShow/libpadlock.dylib; sourceTree = "<group>"; };
+		61CDDFB32472FDE400B56900 /* libssl.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.1.0.0.dylib; path = BatteryStatusShow/libssl.1.0.0.dylib; sourceTree = "<group>"; };
+		61CDDFB42472FDE400B56900 /* libubsec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libubsec.dylib; path = BatteryStatusShow/libubsec.dylib; sourceTree = "<group>"; };
+		61CDDFB52472FDE400B56900 /* libchil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libchil.dylib; path = BatteryStatusShow/libchil.dylib; sourceTree = "<group>"; };
+		61CDDFB62472FDE400B56900 /* libaep.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libaep.dylib; path = BatteryStatusShow/libaep.dylib; sourceTree = "<group>"; };
+		61CDDFB72472FDE400B56900 /* libusbmuxd.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.4.dylib; path = BatteryStatusShow/libusbmuxd.4.dylib; sourceTree = "<group>"; };
+		61CDDFB82472FDE400B56900 /* libatalla.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libatalla.dylib; path = BatteryStatusShow/libatalla.dylib; sourceTree = "<group>"; };
+		61CDDFB92472FDE400B56900 /* libsureware.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libsureware.dylib; path = BatteryStatusShow/libsureware.dylib; sourceTree = "<group>"; };
+		61CDDFBA2472FDE400B56900 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "BatteryStatusShow/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		61CDDFBB2472FDE400B56900 /* libplist++.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libplist++.3.dylib"; path = "BatteryStatusShow/libplist++.3.dylib"; sourceTree = "<group>"; };
+		61CDDFBC2472FDE400B56900 /* libcapi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libcapi.dylib; path = BatteryStatusShow/libcapi.dylib; sourceTree = "<group>"; };
+		61CDDFBD2472FDE400B56900 /* libplist.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.3.dylib; path = BatteryStatusShow/libplist.3.dylib; sourceTree = "<group>"; };
+		61CDDFBE2472FDE400B56900 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = BatteryStatusShow/libxml2.2.dylib; sourceTree = "<group>"; };
+		61CDDFD42472FDF700B56900 /* libimobiledevice.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.6.dylib; path = BatteryStatusShow/libimobiledevice.6.dylib; sourceTree = "<group>"; };
+		61CDDFD52472FDF700B56900 /* libssl.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.1.0.0.dylib; path = BatteryStatusShow/libssl.1.0.0.dylib; sourceTree = "<group>"; };
+		61CDDFD62472FDF700B56900 /* libcrypto.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.0.0.dylib; path = BatteryStatusShow/libcrypto.1.0.0.dylib; sourceTree = "<group>"; };
+		61CDDFD72472FDF700B56900 /* libltdl.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libltdl.7.dylib; path = BatteryStatusShow/libltdl.7.dylib; sourceTree = "<group>"; };
+		61CDDFD82472FDF700B56900 /* libplist.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.3.dylib; path = BatteryStatusShow/libplist.3.dylib; sourceTree = "<group>"; };
+		61CDDFD92472FDF700B56900 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "BatteryStatusShow/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		61CDDFDA2472FDF700B56900 /* libusbmuxd.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.4.dylib; path = BatteryStatusShow/libusbmuxd.4.dylib; sourceTree = "<group>"; };
+		61CDDFDB2472FDF700B56900 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = BatteryStatusShow/libxml2.2.dylib; sourceTree = "<group>"; };
+		61CDDFDC2472FDF700B56900 /* libplist++.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libplist++.3.dylib"; path = "BatteryStatusShow/libplist++.3.dylib"; sourceTree = "<group>"; };
+		61CDE0822473016D00B56900 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../libmobile/installroot/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		61CDE0832473016D00B56900 /* libusbmuxd.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.4.dylib; path = ../../libmobile/installroot/lib/libusbmuxd.4.dylib; sourceTree = "<group>"; };
+		61CDE0842473016D00B56900 /* libimobiledevice.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.6.dylib; path = ../../libmobile/installroot/lib/libimobiledevice.6.dylib; sourceTree = "<group>"; };
+		61CDE0852473016D00B56900 /* libltdl.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libltdl.7.dylib; path = ../../libmobile/installroot/lib/libltdl.7.dylib; sourceTree = "<group>"; };
+		61CDE0862473016D00B56900 /* libplist++.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libplist++.3.dylib"; path = "../../libmobile/installroot/lib/libplist++.3.dylib"; sourceTree = "<group>"; };
+		61CDE0872473016D00B56900 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "../../libmobile/installroot/lib/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		61CDE0882473016D00B56900 /* libplist.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.3.dylib; path = ../../libmobile/installroot/lib/libplist.3.dylib; sourceTree = "<group>"; };
+		61CDE0B6247301FF00B56900 /* BatteryStatusShow.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = BatteryStatusShow.app; path = release/BatteryStatusShow.app; sourceTree = "<group>"; };
+		61CDE0B82473024600B56900 /* libcswift.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libcswift.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libcswift.dylib"; sourceTree = "<group>"; };
+		61CDE0B92473024600B56900 /* libssl.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.1.0.0.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libssl.1.0.0.dylib"; sourceTree = "<group>"; };
+		61CDE0BA2473024600B56900 /* libatalla.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libatalla.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libatalla.dylib"; sourceTree = "<group>"; };
+		61CDE0BB2473024600B56900 /* libcapi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libcapi.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libcapi.dylib"; sourceTree = "<group>"; };
+		61CDE0BC2473024600B56900 /* libgmp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libgmp.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libgmp.dylib"; sourceTree = "<group>"; };
+		61CDE0BD2473024600B56900 /* libchil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libchil.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libchil.dylib"; sourceTree = "<group>"; };
+		61CDE0BE2473024600B56900 /* libplist++.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libplist++.3.dylib"; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libplist++.3.dylib"; sourceTree = "<group>"; };
+		61CDE0BF2473024600B56900 /* libltdl.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libltdl.7.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libltdl.7.dylib"; sourceTree = "<group>"; };
+		61CDE0C02473024600B56900 /* libsureware.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libsureware.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libsureware.dylib"; sourceTree = "<group>"; };
+		61CDE0C12473024600B56900 /* libplist.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.3.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libplist.3.dylib"; sourceTree = "<group>"; };
+		61CDE0C22473024600B56900 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		61CDE0C32473024600B56900 /* libaep.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libaep.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libaep.dylib"; sourceTree = "<group>"; };
+		61CDE0C42473024600B56900 /* libcrypto.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.0.0.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libcrypto.1.0.0.dylib"; sourceTree = "<group>"; };
+		61CDE0C52473024600B56900 /* libusbmuxd.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.4.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libusbmuxd.4.dylib"; sourceTree = "<group>"; };
+		61CDE0C62473024600B56900 /* libimobiledevice.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.6.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libimobiledevice.6.dylib"; sourceTree = "<group>"; };
+		61CDE0C72473024600B56900 /* libnuron.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libnuron.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libnuron.dylib"; sourceTree = "<group>"; };
+		61CDE0C82473024600B56900 /* libgost.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libgost.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libgost.dylib"; sourceTree = "<group>"; };
+		61CDE0C92473024600B56900 /* libpadlock.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libpadlock.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libpadlock.dylib"; sourceTree = "<group>"; };
+		61CDE0CA2473024600B56900 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libxml2.2.dylib"; sourceTree = "<group>"; };
+		61CDE0CB2473024600B56900 /* lib4758cca.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = lib4758cca.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/lib4758cca.dylib"; sourceTree = "<group>"; };
+		61CDE0CC2473024600B56900 /* libubsec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libubsec.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libubsec.dylib"; sourceTree = "<group>"; };
+		61CDE12C247319BB00B56900 /* BatteryStatusShow_1.5.1.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = BatteryStatusShow_1.5.1.zip; path = release/BatteryStatusShow_1.5.1.zip; sourceTree = "<group>"; };
+		61CDE12E24731C9200B56900 /* smcutil */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = smcutil; path = BatteryStatusShow/smcutil/Products/usr/local/bin/smcutil; sourceTree = "<group>"; };
 		61D358161ED0C4B800769C03 /* TwoAxisBaseChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoAxisBaseChartView.swift; sourceTree = "<group>"; };
 		61D358181ED217F600769C03 /* v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v2.xcdatamodel; sourceTree = "<group>"; };
 		61D358191ED21F9000769C03 /* mapping .xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "mapping .xcmappingmodel"; sourceTree = "<group>"; };
 		61D3581B1ED237C900769C03 /* CycleEntityMigrationPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CycleEntityMigrationPolicy.swift; path = ../CycleEntityMigrationPolicy.swift; sourceTree = "<group>"; };
 		61D3581D1ED23EA200769C03 /* mappingtoold.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = mappingtoold.xcmappingmodel; sourceTree = "<group>"; };
-		61E4D21324718CE900E9860B /* BatteryStatusShow_1.5.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = BatteryStatusShow_1.5.zip; path = release/BatteryStatusShow_1.5.zip; sourceTree = SOURCE_ROOT; };
 		61E4D21524718E9500E9860B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		61E4D21624718FBD00E9860B /* readme_pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = readme_pic1.png; path = README/readme_pic1.png; sourceTree = "<group>"; };
 		61E4D21724718FBD00E9860B /* readme_pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = readme_pic2.png; path = README/readme_pic2.png; sourceTree = "<group>"; };
@@ -251,8 +261,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6143BBBF1ED94ABD00F12627 /* libimobiledevice.6.dylib in Frameworks */,
-				61B2CC771EDAE909001097D6 /* libplist.3.dylib in Frameworks */,
+				61CDE1092473088E00B56900 /* libimobiledevice.6.dylib in Frameworks */,
+				61CDE1112473088E00B56900 /* libssl.1.0.0.dylib in Frameworks */,
+				61CDE1072473088E00B56900 /* libcrypto.1.0.0.dylib in Frameworks */,
+				61CDE12924730C5200B56900 /* libplist.3.dylib in Frameworks */,
+				61CDE12724730C5200B56900 /* libusb-1.0.0.dylib in Frameworks */,
+				61CDE10F2473088E00B56900 /* libplist++.3.dylib in Frameworks */,
+				61CDE1172473088F00B56900 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +300,37 @@
 		61065A9C1ED43636008DB039 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				61CDE0CB2473024600B56900 /* lib4758cca.dylib */,
+				61CDE0C32473024600B56900 /* libaep.dylib */,
+				61CDE0BA2473024600B56900 /* libatalla.dylib */,
+				61CDE0BB2473024600B56900 /* libcapi.dylib */,
+				61CDE0BD2473024600B56900 /* libchil.dylib */,
+				61CDE0C42473024600B56900 /* libcrypto.1.0.0.dylib */,
+				61CDE0B82473024600B56900 /* libcswift.dylib */,
+				61CDE0BC2473024600B56900 /* libgmp.dylib */,
+				61CDE0C82473024600B56900 /* libgost.dylib */,
+				61CDE0C62473024600B56900 /* libimobiledevice.6.dylib */,
+				61CDE0BF2473024600B56900 /* libltdl.7.dylib */,
+				61CDE0C72473024600B56900 /* libnuron.dylib */,
+				61CDE0C92473024600B56900 /* libpadlock.dylib */,
+				61CDE0C12473024600B56900 /* libplist.3.dylib */,
+				61CDE0BE2473024600B56900 /* libplist++.3.dylib */,
+				61CDE0B92473024600B56900 /* libssl.1.0.0.dylib */,
+				61CDE0C02473024600B56900 /* libsureware.dylib */,
+				61CDE0CC2473024600B56900 /* libubsec.dylib */,
+				61CDE0C22473024600B56900 /* libusb-1.0.0.dylib */,
+				61CDE0C52473024600B56900 /* libusbmuxd.4.dylib */,
+				61CDE0CA2473024600B56900 /* libxml2.2.dylib */,
+				61CDE0B6247301FF00B56900 /* BatteryStatusShow.app */,
+				61CDDFA42472FC8000B56900 /* libltdl.7.dylib */,
+				61CDE0842473016D00B56900 /* libimobiledevice.6.dylib */,
+				61CDE0852473016D00B56900 /* libltdl.7.dylib */,
+				61CDE0882473016D00B56900 /* libplist.3.dylib */,
+				61CDE0862473016D00B56900 /* libplist++.3.dylib */,
+				61CDE0872473016D00B56900 /* libusb-1.0.0.dylib */,
+				61CDE0832473016D00B56900 /* libusbmuxd.4.dylib */,
+				61CDDFA52472FC8000B56900 /* libxml2.2.dylib */,
+				61CDE0822473016D00B56900 /* libxml2.2.dylib */,
 				6193277A24708393000EA703 /* Foundation.framework */,
 				6193276824707EAD000EA703 /* IOKit.framework */,
 				6143BBC71ED9AE9800F12627 /* Security.framework */,
@@ -295,6 +341,38 @@
 		614C006B1EC23FA8001543D9 = {
 			isa = PBXGroup;
 			children = (
+				61CDE12E24731C9200B56900 /* smcutil */,
+				61CDE12C247319BB00B56900 /* BatteryStatusShow_1.5.1.zip */,
+				61CDDFD62472FDF700B56900 /* libcrypto.1.0.0.dylib */,
+				61CDDFD42472FDF700B56900 /* libimobiledevice.6.dylib */,
+				61CDDFD72472FDF700B56900 /* libltdl.7.dylib */,
+				61CDDFD82472FDF700B56900 /* libplist.3.dylib */,
+				61CDDFDC2472FDF700B56900 /* libplist++.3.dylib */,
+				61CDDFD52472FDF700B56900 /* libssl.1.0.0.dylib */,
+				61CDDFD92472FDF700B56900 /* libusb-1.0.0.dylib */,
+				61CDDFDA2472FDF700B56900 /* libusbmuxd.4.dylib */,
+				61CDDFDB2472FDF700B56900 /* libxml2.2.dylib */,
+				61CDDFAD2472FDE400B56900 /* lib4758cca.dylib */,
+				61CDDFB62472FDE400B56900 /* libaep.dylib */,
+				61CDDFB82472FDE400B56900 /* libatalla.dylib */,
+				61CDDFBC2472FDE400B56900 /* libcapi.dylib */,
+				61CDDFB52472FDE400B56900 /* libchil.dylib */,
+				61CDDFB02472FDE400B56900 /* libcrypto.1.0.0.dylib */,
+				61CDDFAC2472FDE400B56900 /* libcswift.dylib */,
+				61CDDFAE2472FDE400B56900 /* libgmp.dylib */,
+				61CDDFAA2472FDE400B56900 /* libgost.dylib */,
+				61CDDFAB2472FDE400B56900 /* libimobiledevice.6.dylib */,
+				61CDDFAF2472FDE400B56900 /* libltdl.7.dylib */,
+				61CDDFB12472FDE400B56900 /* libnuron.dylib */,
+				61CDDFB22472FDE400B56900 /* libpadlock.dylib */,
+				61CDDFBD2472FDE400B56900 /* libplist.3.dylib */,
+				61CDDFBB2472FDE400B56900 /* libplist++.3.dylib */,
+				61CDDFB32472FDE400B56900 /* libssl.1.0.0.dylib */,
+				61CDDFB92472FDE400B56900 /* libsureware.dylib */,
+				61CDDFB42472FDE400B56900 /* libubsec.dylib */,
+				61CDDFBA2472FDE400B56900 /* libusb-1.0.0.dylib */,
+				61CDDFB72472FDE400B56900 /* libusbmuxd.4.dylib */,
+				61CDDFBE2472FDE400B56900 /* libxml2.2.dylib */,
 				61E4D21624718FBD00E9860B /* readme_pic1.png */,
 				61E4D21724718FBD00E9860B /* readme_pic2.png */,
 				61E4D21524718E9500E9860B /* README.md */,
@@ -321,7 +399,6 @@
 		614C00761EC23FA8001543D9 /* BatteryStatusShow */ = {
 			isa = PBXGroup;
 			children = (
-				61E4D21324718CE900E9860B /* BatteryStatusShow_1.5.zip */,
 				6193279C2470F7C5000EA703 /* BatteryStatusShow.entitlements */,
 				619327A024711229000EA703 /* smcutil-Prefix.pch */,
 				61932781247083FD000EA703 /* SmcHelper.h */,
@@ -425,7 +502,7 @@
 				614C00701EC23FA8001543D9 /* Sources */,
 				614C00711EC23FA8001543D9 /* Frameworks */,
 				614C00721EC23FA8001543D9 /* Resources */,
-				61065A6A1ED41439008DB039 /* Embed Frameworks */,
+				61CDE1192473088F00B56900 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -548,38 +625,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6193279D2470F80A000EA703 /* smcutil in Resources */,
-				61E4D21424718CE900E9860B /* BatteryStatusShow_1.5.zip in Resources */,
-				6143BC111ED9B12100F12627 /* libcrypto.1.0.0.dylib in Resources */,
-				6143BC131ED9B12100F12627 /* libcrypto.dylib in Resources */,
+				61CDE1312473204800B56900 /* smcutil in Resources */,
 				61AF6F481EDB0A85005F8DA9 /* iosbattery.csv in Resources */,
-				6143BC141ED9B12100F12627 /* libssl.1.0.0.dylib in Resources */,
-				6143BC161ED9B12100F12627 /* libssl.dylib in Resources */,
-				6143BC171ED9B12100F12627 /* libusb-1.0.0.dylib in Resources */,
-				6143BC191ED9B12100F12627 /* libusb-1.0.dylib in Resources */,
-				6143BC1A1ED9B12100F12627 /* libplist.3.dylib in Resources */,
-				6143BC1C1ED9B12100F12627 /* libplist.dylib in Resources */,
-				6143BC1D1ED9B12100F12627 /* libimobiledevice.6.dylib in Resources */,
-				6143BC1F1ED9B12100F12627 /* libplist++.3.dylib in Resources */,
-				6143BC211ED9B12100F12627 /* libusbmuxd.4.dylib in Resources */,
-				6143BC231ED9B12100F12627 /* libusbmuxd.dylib in Resources */,
-				6143BBE01ED9B0B000F12627 /* libcswift.dylib in Resources */,
-				6143BBE31ED9B0B000F12627 /* libnuron.dylib in Resources */,
 				61E4D21824718FBD00E9860B /* readme_pic1.png in Resources */,
-				6143BBDB1ED9B0B000F12627 /* lib4758cca.dylib in Resources */,
-				6143BBDE1ED9B0B000F12627 /* libcapi.dylib in Resources */,
-				6143BBE11ED9B0B000F12627 /* libgmp.dylib in Resources */,
-				6143BBDC1ED9B0B000F12627 /* libaep.dylib in Resources */,
 				614C007C1EC23FA8001543D9 /* Assets.xcassets in Resources */,
 				61065A5C1ED338A6008DB039 /* battery.csv in Resources */,
-				6143BBE61ED9B0B000F12627 /* libubsec.dylib in Resources */,
 				614C007F1EC23FA8001543D9 /* Main.storyboard in Resources */,
-				6143BBE21ED9B0B000F12627 /* libgost.dylib in Resources */,
-				6143BBE51ED9B0B000F12627 /* libsureware.dylib in Resources */,
-				6143BBDF1ED9B0B000F12627 /* libchil.dylib in Resources */,
 				61E4D21924718FBD00E9860B /* readme_pic2.png in Resources */,
-				6143BBDD1ED9B0B000F12627 /* libatalla.dylib in Resources */,
-				6143BBE41ED9B0B000F12627 /* libpadlock.dylib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,7 +855,6 @@
 		614C009A1EC23FA8001543D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -811,8 +862,8 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = 7698T37TAB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/BatteryStatusShow",
@@ -833,12 +884,12 @@
 				);
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.5.1;
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = sicreatelee.BatteryStatusShow;
+				PRODUCT_BUNDLE_IDENTIFIER = sicreativelee.batterystatusshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "BatteryStatusShow/Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -848,7 +899,6 @@
 		614C009B1EC23FA8001543D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -856,8 +906,8 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = 7698T37TAB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/BatteryStatusShow",
@@ -878,12 +928,12 @@
 				);
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.5.1;
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = sicreatelee.BatteryStatusShow;
+				PRODUCT_BUNDLE_IDENTIFIER = sicreativelee.batterystatusshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "BatteryStatusShow/Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
