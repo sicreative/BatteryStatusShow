@@ -234,11 +234,12 @@ class IOSDetailViewController: BatteryViewController {
         }
         
         if (iobattery==nil){
-            iobattery = (NSApplication.shared.delegate as! AppDelegate).getBattery()
-            
+            DispatchQueue.main.async{
+                self.iobattery = (NSApplication.shared.delegate as! AppDelegate).getBattery()
+            }
         }
         
-        if (!iobattery.withIOSDevice){
+        if (iobattery != nil && !iobattery.withIOSDevice){
             DispatchQueue.main.async {
             self.view.isHidden = true;
             self.updatedesc = true
@@ -251,7 +252,7 @@ class IOSDetailViewController: BatteryViewController {
         }else{
            
         
-            if (Int(iobattery.iosUpdateTime) > Int(truncating: lastupdate) ){
+            if (iobattery != nil && Int(iobattery.iosUpdateTime) > Int(truncating: lastupdate) ){
              self.lastupdate =   NSNumber(integerLiteral: self.iobattery.iosUpdateTime)
             DispatchQueue.main.async {
                  self.view.isHidden = false;

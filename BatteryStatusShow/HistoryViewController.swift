@@ -59,6 +59,9 @@ class HistoryViewController: BatteryViewController {
           historyFetch.predicate = NSPredicate(format:"( serialno = %@ )",iobattery.battery_serialno)
         
         do {
+            if (datacontroller==nil){
+                return
+            }
             history = try datacontroller.managedObjectContext.fetch(historyFetch) as? [HistoryMO]
             
             var maxduration : Int = 12;

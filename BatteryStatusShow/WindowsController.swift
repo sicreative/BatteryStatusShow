@@ -46,10 +46,11 @@ extension WindowController: NSTouchBarDelegate {
      
             
             let tabStyleItem = NSCustomTouchBarItem(identifier: identifier)
+            
+         
+            
             tabStyleItem.customizationLabel = "Tab Selector"
 
-
-            
             
             tabStyleItem.view = gettabStyleSegment()
             
@@ -60,7 +61,7 @@ extension WindowController: NSTouchBarDelegate {
             
 
             
-        default: return nil
+            default: return nil
         }
     }
 }
@@ -152,16 +153,7 @@ class WindowController: NSWindowController {
             
         }
        
-        
-     
-        
-        
-  
-            
-        
-    
-    
-    
+
         
       
 
@@ -170,10 +162,10 @@ class WindowController: NSWindowController {
         
         if (self.iobattery != nil ){
             if (!self.iobattery.nobattery){
-            mactext += " " + self.iobattery.capacity.description + "/" + self.iobattery.max_capacity.description
+                mactext += " " + self.iobattery.capacity.description + "/" + self.iobattery.max_capacity.description
             }
             if (self.iobattery.withIOSDevice){
-                 iostext += " " + self.iobattery.iosCurrentCapacity.description + "/" + self.iobattery.iosMaxCapacity.description
+                iostext += " " + self.iobattery.iosCurrentCapacity.description + "/" + self.iobattery.iosMaxCapacity.description
             }
         }
         
@@ -188,10 +180,17 @@ class WindowController: NSWindowController {
         }
         
         if (self.iohid != nil && self.iohid.batterylevel.count>0){
+            
+            
+            
             for item in self.iohid.devices_name {
                 if (item.range(of:"Mouse") != nil){
-                    peripheraltext += " " + String( self.iohid.batterylevel[self.iohid.devices_name.index(of: item)!]) + "%"
-                    break;
+                    
+                    if let index = self.iohid.devices_name.index(of: item){
+                    
+                        peripheraltext += " " + String( self.iohid.batterylevel[index]) + "%"
+                        break;
+                    }
                 }
             }
         }
@@ -199,14 +198,7 @@ class WindowController: NSWindowController {
         let graphtext = "📈"
         let lottext = "🖌"
        
-       /*
-                self.tabStyleSegment.setLabel(mactext, forSegment: 0)
-                self.tabStyleSegment.setLabel(graphtext, forSegment: 1)
-                self.tabStyleSegment.setLabel(iostext, forSegment: 2)
-                self.tabStyleSegment.setLabel(peripheraltext, forSegment: 3)
-                self.tabStyleSegment.setLabel(lottext, forSegment: 4)
-            
-         */
+
         
         
        return NSSegmentedControl(labels: [mactext,graphtext,iostext,peripheraltext,lottext], trackingMode: .momentary, target: self, action: #selector(changetab))
@@ -227,12 +219,7 @@ class WindowController: NSWindowController {
         
         
      
-        
-   
-        
-      //  let tabStyleSegment = NSSegmentedControl(labels: ["💻"+mactext,"📈","📱"+iostext,"🖱"+peripheraltext,"🖌"], trackingMode: .momentary, target: self, action: #selector(changetab))
-        
-       //  var tabStyleSegment = NSSegmentedControl(labels: ["💻","📈","📱","🖱","🖌"], trackingMode: .momentary, target: self, action: #selector(changetab))x
+
         
         
         

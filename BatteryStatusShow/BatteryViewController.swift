@@ -92,9 +92,10 @@ class BatteryViewController: NSViewController {
         if (iobattery==nil){
           
         
-
-            iobattery = (NSApplication.shared.delegate as! AppDelegate).getBattery()
-        
+             DispatchQueue.main.async{
+                self.iobattery = (NSApplication.shared.delegate as! AppDelegate).getBattery()
+                self.updatebatterydesc()
+            }
               
         }
         DispatchQueue.main.async{

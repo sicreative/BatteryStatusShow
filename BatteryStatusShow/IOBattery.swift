@@ -646,7 +646,13 @@ class IOBattery{
                         regionCode!.insert("_", at: .init(encodedOffset: 0))
                     }
                     
+                  
+                    
                     if let dict = NSDictionary(contentsOfFile: "/System/Library/PrivateFrameworks/ServerInformation.framework/Resources/\(langCode!)\(regionCode!).lproj/SIMachineAttributes.plist") as? [String:AnyObject] {
+                        
+                        if (dict[macmodel] as? NSDictionary) == nil {
+                                                       return
+                                                   }
                         
                         macname = ((dict[macmodel] as! NSDictionary)["_LOCALIZABLE_"] as! NSDictionary)["marketingModel"] as! String
                         
@@ -658,6 +664,10 @@ class IOBattery{
                         
                     }else{
                         if let dict = NSDictionary(contentsOfFile: "/System/Library/PrivateFrameworks/ServerInformation.framework/Resources/\(langCode!).lproj/SIMachineAttributes.plist") as? [String:AnyObject] {
+                            
+                            if (dict[macmodel] as? NSDictionary) == nil {
+                                return
+                            }
                         
                             macname = ((dict[macmodel] as! NSDictionary)["_LOCALIZABLE_"] as! NSDictionary)["marketingModel"] as! String
                         
@@ -665,7 +675,13 @@ class IOBattery{
                             
                         }else{
                             
+                            
+                            
                             if let dict = NSDictionary(contentsOfFile: "/System/Library/PrivateFrameworks/ServerInformation.framework/Resources/en.lproj/SIMachineAttributes.plist") as? [String:AnyObject] {
+                                
+                                if (dict[macmodel] as? NSDictionary) == nil {
+                                                               return
+                                                           }
                             
                                 macname = ((dict[macmodel] as! NSDictionary)["_LOCALIZABLE_"] as! NSDictionary)["marketingModel"] as! String
                             
@@ -678,7 +694,7 @@ class IOBattery{
                         
                     }
                     
-                    
+                   
                     
                     
                     // ioregclaim()

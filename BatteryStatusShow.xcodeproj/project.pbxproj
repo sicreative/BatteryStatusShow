@@ -15,6 +15,7 @@
 		6129C5C61EDC8D0E006A447F /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129C5C51EDC8D0E006A447F /* LogViewController.swift */; };
 		6129C5C81EDC8E6D006A447F /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129C5C71EDC8E6D006A447F /* LogView.swift */; };
 		6129C5CA1EDDEDBB006A447F /* StatusBaseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129C5C91EDDEDBB006A447F /* StatusBaseChartView.swift */; };
+		614925BD2486C64300DCD288 /* BatteryStatusShow_1.5.2.zip in Resources */ = {isa = PBXBuildFile; fileRef = 614925BC2486C64300DCD288 /* BatteryStatusShow_1.5.2.zip */; };
 		614C00781EC23FA8001543D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614C00771EC23FA8001543D9 /* AppDelegate.swift */; };
 		614C007C1EC23FA8001543D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614C007B1EC23FA8001543D9 /* Assets.xcassets */; };
 		614C007F1EC23FA8001543D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614C007D1EC23FA8001543D9 /* Main.storyboard */; };
@@ -147,6 +148,7 @@
 		6143BBEC1ED9B0BE00F12627 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libssl.dylib; sourceTree = "<group>"; };
 		6143BBF31ED9B0EF00F12627 /* libusbmuxd.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libusbmuxd.4.dylib; sourceTree = "<group>"; };
 		6143BBF51ED9B0EF00F12627 /* libusbmuxd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libusbmuxd.dylib; sourceTree = "<group>"; };
+		614925BC2486C64300DCD288 /* BatteryStatusShow_1.5.2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = BatteryStatusShow_1.5.2.zip; path = release/BatteryStatusShow_1.5.2.zip; sourceTree = "<group>"; };
 		614C00741EC23FA8001543D9 /* BatteryStatusShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryStatusShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		614C00771EC23FA8001543D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		614C007B1EC23FA8001543D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -244,7 +246,6 @@
 		61CDE0CA2473024600B56900 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libxml2.2.dylib"; sourceTree = "<group>"; };
 		61CDE0CB2473024600B56900 /* lib4758cca.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = lib4758cca.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/lib4758cca.dylib"; sourceTree = "<group>"; };
 		61CDE0CC2473024600B56900 /* libubsec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libubsec.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libubsec.dylib"; sourceTree = "<group>"; };
-		61CDE12C247319BB00B56900 /* BatteryStatusShow_1.5.1.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = BatteryStatusShow_1.5.1.zip; path = release/BatteryStatusShow_1.5.1.zip; sourceTree = "<group>"; };
 		61CDE12E24731C9200B56900 /* smcutil */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = smcutil; path = BatteryStatusShow/smcutil/Products/usr/local/bin/smcutil; sourceTree = "<group>"; };
 		61D358161ED0C4B800769C03 /* TwoAxisBaseChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoAxisBaseChartView.swift; sourceTree = "<group>"; };
 		61D358181ED217F600769C03 /* v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v2.xcdatamodel; sourceTree = "<group>"; };
@@ -341,8 +342,8 @@
 		614C006B1EC23FA8001543D9 = {
 			isa = PBXGroup;
 			children = (
+				614925BC2486C64300DCD288 /* BatteryStatusShow_1.5.2.zip */,
 				61CDE12E24731C9200B56900 /* smcutil */,
-				61CDE12C247319BB00B56900 /* BatteryStatusShow_1.5.1.zip */,
 				61CDDFD62472FDF700B56900 /* libcrypto.1.0.0.dylib */,
 				61CDDFD42472FDF700B56900 /* libimobiledevice.6.dylib */,
 				61CDDFD72472FDF700B56900 /* libltdl.7.dylib */,
@@ -632,6 +633,7 @@
 				61065A5C1ED338A6008DB039 /* battery.csv in Resources */,
 				614C007F1EC23FA8001543D9 /* Main.storyboard in Resources */,
 				61E4D21924718FBD00E9860B /* readme_pic2.png in Resources */,
+				614925BD2486C64300DCD288 /* BatteryStatusShow_1.5.2.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -862,7 +864,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = 7698T37TAB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -884,7 +886,7 @@
 				);
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.5.1;
+				MARKETING_VERSION = 1.5.2;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = sicreativelee.batterystatusshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -906,7 +908,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = 7698T37TAB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -928,7 +930,7 @@
 				);
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.5.1;
+				MARKETING_VERSION = 1.5.2;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = sicreativelee.batterystatusshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
