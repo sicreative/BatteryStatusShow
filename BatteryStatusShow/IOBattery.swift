@@ -323,6 +323,8 @@ class IOBattery{
    
         if ((ret == LOCKDOWN_E_SUCCESS) && (service != nil) && ((service?.pointee.port)! > 0)) {
             if (diagnostics_relay_client_new(device, service, &diagnostics_client) != DIAGNOSTICS_RELAY_E_SUCCESS) {
+                
+                
                 print("Could not connect to diagnostics_relay!\n");
                 withIOSDevice = false
                
@@ -364,22 +366,22 @@ class IOBattery{
                         
                       let mg = property["MobileGestalt"] as! NSDictionary
                         
-                       iosproducttype = mg["ProductType"] as! String
+                       iosproducttype = mg["ProductType"] as? String ?? ""
                             
                        iosproductname = IOSModelDict.ProductTypeToName(producttype: iosproducttype)
                         
-                       ioscomputername = mg["ComputerName"] as! String
+                       ioscomputername = mg["ComputerName"] as? String ?? ""
                         
                         
                         
-                        iosdevicecolor = NSColor(hex: mg["DeviceColor"] as! String)
+                        iosdevicecolor = NSColor(hex: mg["DeviceColor"] as? String ?? "000000")
                         
-                        iosproductversion = mg["ProductVersion"] as! String
+                        iosproductversion = mg["ProductVersion"] as? String ?? ""
 
                             #if DEBUG
                                 iosserialno = "D123456789ABCDE"
                             #else
-                                iosserialno = mg["SerialNumber"] as! String
+                                iosserialno = mg["SerialNumber"]  as? String ?? ""
                             #endif
                             
                         }catch{
@@ -395,7 +397,12 @@ class IOBattery{
                         
 
                     }
-                } 
+                }else{
+                    
+                    
+                    
+                    
+                }
             }
             
             
@@ -435,44 +442,53 @@ class IOBattery{
                                 #if DEBUG
                                     iosBatterySerialNumber = "DABCDE1235678"
                                 #else
-                                    iosBatterySerialNumber = powerdict["Serial"] as! String
+                                    iosBatterySerialNumber = powerdict["Serial"]  as? String ?? ""
                                     if (!withIOSDevice){
                                         os_log("iOS Devices Connected: %{public}@",
                                                iosBatterySerialNumber)
                                     }
                                 
                                 #endif
-                            iosManufacturer = powerdict["Manufacturer"] as! String
-                            iosModel = powerdict["Model"] as! String
                                 
-                                if let adapter = powerdict["AdapterDetails"] as! NSDictionary!{
-                                    iosAdapterVoltage = Float(truncating: adapter["AdapterVoltage"] as! NSNumber)/1000
+                                // Some Battery may no Manufacturer and Model Information 
+                                
+                                iosManufacturer = powerdict["Manufacturer"]  as? String ?? ""
+                            
+                              
+                                iosModel = powerdict["Model"]  as? String ?? ""
+                                
+                                if (powerdict["AdapterDetails"] as! NSDictionary! != nil){
+                                    if let adapter = powerdict["AdapterDetails"] as! NSDictionary!{
+                                        iosAdapterVoltage = Float(truncating: adapter["AdapterVoltage"] as! NSNumber)/1000
                                     
-                                    iosAdapterAmperage = Int(truncating: adapter["Amperage"] as! NSNumber)
-                                    iosAdapterDesc = adapter["Description"] as! String
-                                    iosAdapterWatts = Float(truncating: adapter["Watts"] as! NSNumber)
+                                        iosAdapterAmperage = Int(truncating: adapter["Amperage"] as! NSNumber)
+                                        iosAdapterDesc = adapter["Description"]  as? String ?? ""
+                                        iosAdapterWatts = Float(truncating: adapter["Watts"] as! NSNumber)
+                                    }
                                 }
                                 
-                                if let batterydata = powerdict["BatteryData"] as! NSDictionary!
-                                {
-                                    let manufactureDate = Int( (batterydata["ManufactureDate"] as! NSString) as String)
+                                if (powerdict["BatteryData"] as! NSDictionary! != nil){
+                                    if let batterydata = powerdict["BatteryData"] as! NSDictionary!
+                                    {
+                                        let manufactureDate = Int( (batterydata["ManufactureDate"] as! NSString) as String)
                                     
-                                    let dateformatter = DateFormatter()
-                                    dateformatter.dateStyle = .medium
-                                    dateformatter.timeStyle = .none
+                                        let dateformatter = DateFormatter()
+                                        dateformatter.dateStyle = .medium
+                                        dateformatter.timeStyle = .none
                                     
-                                    var components = DateComponents()
+                                        var components = DateComponents()
                                     
                                     
-                                    components.yearForWeekOfYear = manufactureDate! / 100
-                                    components.weekOfYear = manufactureDate! % 100
+                                        components.yearForWeekOfYear = manufactureDate! / 100
+                                        components.weekOfYear = manufactureDate! % 100
                                 
-                                    let calendardate = Calendar.current.date(from: components)
-                                    iosmanufdate = dateformatter.string(from: calendardate!)
+                                        let calendardate = Calendar.current.date(from: components)
+                                        iosmanufdate = dateformatter.string(from: calendardate!)
+                                    }
                                 }
                                 
                               
-                                //  iosmanufdate = powerdict[""] as!
+                                
                                 
                               
                                 withIOSDevice = true
@@ -485,7 +501,7 @@ class IOBattery{
                             if (powerdict["UpdateTime"]==nil){
                                 updateTime = Int(Date().timeIntervalSince1970)
                             }else{
-                                updateTime = Int( truncating: powerdict["UpdateTime"] as! NSNumber)
+                                updateTime = Int( truncating: powerdict["UpdateTime"] as? NSNumber ?? 0)
                             }
                             
                             
@@ -498,17 +514,17 @@ class IOBattery{
                             iosUpdateTime = updateTime
 
                             
-                            iosCycle = Int( truncating: powerdict["CycleCount"] as! NSNumber)
-                            iosDesignCapacity = Int(truncating: powerdict["DesignCapacity"] as! NSNumber)
-                            iosMaxCapacity = Int(truncating: powerdict["AppleRawMaxCapacity"] as! NSNumber)
-                            iosCurrentCapacity = Int(truncating: powerdict["AppleRawCurrentCapacity"] as! NSNumber)
-                            iosBatteryTemp = Float(truncating: powerdict["Temperature"] as! NSNumber) / 100
+                            iosCycle = Int( truncating: powerdict["CycleCount"] as? NSNumber ?? 0)
+                            iosDesignCapacity = Int(truncating: powerdict["DesignCapacity"] as? NSNumber ?? 0)
+                            iosMaxCapacity = Int(truncating: powerdict["AppleRawMaxCapacity"] as? NSNumber ?? 0)
+                            iosCurrentCapacity = Int(truncating: powerdict["AppleRawCurrentCapacity"] as? NSNumber ?? 0)
+                            iosBatteryTemp = Float(truncating: powerdict["Temperature"] as? NSNumber ?? 0) / 100
                          
-                            iosVoltage = Float(truncating: powerdict["Voltage"] as! NSNumber) / 1000
+                            iosVoltage = Float(truncating: powerdict["Voltage"] as? NSNumber ?? 0) / 1000
                             
                      
-                            iosAmperage = Int(truncating: powerdict["InstantAmperage"] as! NSNumber)
-                            iosTimeRemaining = Int(truncating: powerdict["TimeRemaining"] as! NSNumber)
+                            iosAmperage = Int(truncating: powerdict["InstantAmperage"] as? NSNumber ?? 0)
+                            iosTimeRemaining = Int(truncating: powerdict["TimeRemaining"] as? NSNumber ?? 0)
                            
                             iosIsCharging = powerdict["IsCharging"] as! Bool
                             iosFullyCharged = powerdict["FullyCharged"] as! Bool
@@ -534,7 +550,139 @@ class IOBattery{
                         }
                         
                         
-                     //   print("OK get Diagonstics.\n");
+                    
+                    }else{
+                        // Latest ios device  use AppleSmartBattery for battery information
+                        if (diagnostics_relay_query_ioregistry_entry(diagnostics_client, "AppleSmartBattery",nil, &node) == DIAGNOSTICS_RELAY_E_SUCCESS) {
+                            if (node != nil){
+                                
+                                     var show:UnsafeMutablePointer<Int8>?
+                                        var len:UInt32 = 0
+                                        
+                                        plist_to_xml(node, &show, &len)
+                                        
+                                        
+                                        
+                                      
+                                     let output =  String(utf8String: UnsafePointer<CChar>(show!)) ?? ""
+                                        
+                                        let data = output.data(using: .utf8)
+                                        
+                                      
+                                        
+                                        do {  let property: NSMutableDictionary = try PropertyListSerialization.propertyList(from: data!, options: PropertyListSerialization.MutabilityOptions.mutableContainers, format: nil) as! NSMutableDictionary
+                                          propertystring = property.description
+                                            #if DEBUG
+                                            print( property.description)
+                                        
+                                                
+                                            #endif
+                                                
+                                            let powerdict = property["IORegistry"] as! NSDictionary
+                                           // let batterydict = powerdict["BatteryData"] as! NSDictionary
+                                           
+                                            if (!withIOSDevice){
+                                                #if DEBUG
+                                                    iosBatterySerialNumber = "DABCDE1235678"
+                                                #else
+                                                    iosBatterySerialNumber = powerdict["Serial"]  as? String ?? ""
+                                                    if (!withIOSDevice){
+                                                        os_log("iOS Devices Connected: %{public}@",
+                                                               iosBatterySerialNumber)
+                                                    }
+                                                
+                                                #endif
+                                                
+                                            // Not all battery provide 
+                                            iosManufacturer = powerdict["Manufacturer"]  as? String ?? ""
+                                            iosModel = powerdict["Model"]  as? String ?? ""
+                                                
+                                                if ((powerdict["AdapterDetails"] as! NSDictionary!) != nil){
+                                                    if let adapter = powerdict["AdapterDetails"] as! NSDictionary!{
+                                                        iosAdapterVoltage = Float(truncating: adapter["Voltage"] as! NSNumber)/1000
+                                                    
+                                                        iosAdapterAmperage = Int(truncating: adapter["Current"] as! NSNumber)
+                                                        iosAdapterDesc = adapter["Description"]  as? String ?? ""
+                                                        iosAdapterWatts = Float(truncating: adapter["Watts"] as! NSNumber)
+                                                    }
+                                                }
+                                                
+                                                
+                                        
+                                                
+                                              
+                                                //  iosmanufdate = powerdict[""] as!
+                                                
+                                              
+                                                withIOSDevice = true
+                                                iosUpdateTime = 0
+                                            }
+                                            
+                                            
+                                            var updateTime:Int!
+                                            
+                                            if (powerdict["UpdateTime"]==nil){
+                                                updateTime = Int(Date().timeIntervalSince1970)
+                                            }else{
+                                                updateTime = Int( truncating: powerdict["UpdateTime"] as? NSNumber ?? 0)
+                                            }
+                                            
+                                            
+                                            if ( iosUpdateTime == updateTime){
+                                                return
+                                            }
+                                            
+                                           
+                                            
+                                            iosUpdateTime = updateTime
+
+                                            
+                                            iosCycle = Int( truncating: powerdict["CycleCount"] as? NSNumber ?? 0)
+                                            iosDesignCapacity = Int(truncating: powerdict["DesignCapacity"] as? NSNumber ?? 0)
+                                            iosMaxCapacity = Int(truncating: powerdict["AppleRawMaxCapacity"] as? NSNumber ?? 0)
+                                            iosCurrentCapacity = Int(truncating: powerdict["AppleRawCurrentCapacity"] as? NSNumber ?? 0)
+                                            iosBatteryTemp = Float(truncating: powerdict["Temperature"] as? NSNumber ?? 0) / 100
+                                         
+                                            iosVoltage = Float(truncating: powerdict["Voltage"] as? NSNumber ?? 0) / 1000
+                                            
+                                     
+                                            iosAmperage = Int(truncating: powerdict["InstantAmperage"] as? NSNumber ?? 0)
+                                            iosTimeRemaining = Int(truncating: powerdict["TimeRemaining"] as? NSNumber ?? 0)
+                                           
+                                            iosIsCharging = powerdict["IsCharging"] as! Bool
+                                            iosFullyCharged = powerdict["FullyCharged"] as! Bool
+                                          
+                                            
+                                              show?.deinitialize(count: 0)
+                                            
+                                            diagnostics_relay_goodbye(diagnostics_client);
+                                    
+                                            
+                                       diagnostics_relay_client_free(diagnostics_client)
+                                            
+                                            
+                                
+                                            rundatabase("IOSHistory",iosMaxCapacity as NSNumber,
+                                                        Date(),iosCycle as NSNumber,iosBatteryTemp as NSNumber,iosBatterySerialNumber as NSString)
+                                            
+                                            
+                                          
+                                            
+                                        }catch{
+                                            
+                                        }
+                                
+                                
+                                
+                                
+                            }
+                            
+                            
+                        }
+                        
+                        
+                        
+                        
                     }
                 } else {
                    // print("Unable to retrieve IORegistry from device.\n");
@@ -785,7 +933,7 @@ class IOBattery{
              
                 
             }else{
-                updatetime =  childdict["UserVisiblePathUpdated"] as! NSNumber
+                updatetime =  childdict["UserVisiblePathUpdated"] as? NSNumber ?? 0
             }
             
            
@@ -815,16 +963,16 @@ class IOBattery{
                 
                 switch keystring {
                     case "Voltage":
-                        voltage = Float(truncating: value as! NSNumber)
+                        voltage = Float(truncating: value as? NSNumber ?? 0)
                         voltage /= 1000
                     case "CurrentCapacity":
-                        capacity = Int(truncating: value as! NSNumber)
+                        capacity = Int(truncating: value as? NSNumber ?? 0)
                     case "DesignCapacity":
-                        design_capacity = Int (truncating: value as! NSNumber)
+                        design_capacity = Int (truncating: value as? NSNumber ?? 0)
                     case "MaxCapacity":
-                        max_capacity = Int (truncating: value as! NSNumber)
+                        max_capacity = Int (truncating: value as? NSNumber ?? 0)
                     case "CycleCount":
-                        cycle_count = Int (truncating: value as! NSNumber)
+                        cycle_count = Int (truncating: value as? NSNumber ?? 0)
                     case "BatterySerialNumber":
                         if (battery_serialno.isEmpty){
                             #if DEBUG
@@ -847,12 +995,12 @@ class IOBattery{
                             device_name = value as! String
                     }
                     case "DesignCycleCount9C":
-                        design_cycle = Int (truncating: value as! NSNumber)
+                        design_cycle = Int (truncating: value as? NSNumber ?? 0)
                     case "Temperature":
-                        temperature = Int (truncating: value as! NSNumber)
+                        temperature = Int (truncating: value as? NSNumber ?? 0)
                     
                     case "Amperage":
-                        amperage = Int (truncating: value as! NSNumber)
+                        amperage = Int (truncating: value as? NSNumber ?? 0)
                     
                  
                     
@@ -866,14 +1014,14 @@ class IOBattery{
                         avgtimetofull = value  as! Int
                     
                     case "PermanentFailureStatus":
-                        if (value as! NSNumber == 0){
+                        if (value as? NSNumber ?? 0 == 0){
                         battery_status = "Normal"
                         }else{
                         battery_status = "Failure"}
                     
                     case "ManufactureDate":
                         if (batterymanfdate.isEmpty){
-                            let rawnum = Int(truncating: value as! NSNumber)
+                            let rawnum = Int(truncating: value as? NSNumber ?? 0)
                         let date = rawnum & 0x1F
                         let month = (rawnum & 0x1E0) >> 5
                         let year = (rawnum >> 9 ) + 1980
@@ -1494,13 +1642,19 @@ extension NSColor {
     
     convenience init(hex:String) {
         
-        let hexstring =  hex[hex.index(hex.startIndex, offsetBy: 1)..<hex.endIndex]
+          var hexstring = "000000";
+        
+        if (!hex.isEmpty && hex[hex.startIndex]=="#"){
+            hexstring =  String(hex[hex.index(hex.startIndex, offsetBy: 1)..<hex.endIndex])
+        }
         
             
        // hexstring.insert("x", at: hexstring.startIndex)
        // hexstring.insert("0", at: hexstring.startIndex)
         
         let intvalue =   Int(hexstring,radix:16)
+        
+      
         
     //   = (hexstring as NSString).integerValue
        

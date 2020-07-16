@@ -4,6 +4,8 @@
 ![ pic1](/README/readme_pic1.png)
 ![ pic2](/README/readme_pic2.png)
 
+#### Version 1.5.3
+fixed crash and show information of latest IOS devices (suppot IOS 13) 
 #### Version 1.5.2
 fixed crash for not found device description (Macbook 16) and stable improvement
 #### Version 1.5.1
@@ -32,7 +34,7 @@ Tested under 10.15.4 Macbook Pro 2018, may or may not work on your model.
 
 ## Download complied APP
 
-[BatteryStatusShow_1.5.2.zip](/release/BatteryStatusShow_1.5.2.zip)
+[BatteryStatusShow_1.5.3.zip](/release/BatteryStatusShow_1.5.3.zip)
 
 ### Complie
 1. clone this git
