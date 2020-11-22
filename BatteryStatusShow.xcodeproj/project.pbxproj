@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61065A5C1ED338A6008DB039 /* battery.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61065A5B1ED338A6008DB039 /* battery.csv */; };
 		61065A5E1ED384D8008DB039 /* IOHID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61065A5D1ED384D8008DB039 /* IOHID.swift */; };
 		61095B0E1EE537BA00C924AC /* WindowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61095B0D1EE537BA00C924AC /* WindowsController.swift */; };
 		611AEA801EE1E8C600315DA9 /* IOSModelDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611AEA7F1EE1E8C600315DA9 /* IOSModelDict.swift */; };
@@ -17,12 +16,10 @@
 		6129C5CA1EDDEDBB006A447F /* StatusBaseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129C5C91EDDEDBB006A447F /* StatusBaseChartView.swift */; };
 		614C00781EC23FA8001543D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614C00771EC23FA8001543D9 /* AppDelegate.swift */; };
 		614C007C1EC23FA8001543D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614C007B1EC23FA8001543D9 /* Assets.xcassets */; };
-		614C007F1EC23FA8001543D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614C007D1EC23FA8001543D9 /* Main.storyboard */; };
 		614C008A1EC23FA8001543D9 /* BatteryStatusShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614C00891EC23FA8001543D9 /* BatteryStatusShowTests.swift */; };
 		614C00951EC23FA8001543D9 /* BatteryStatusShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614C00941EC23FA8001543D9 /* BatteryStatusShowUITests.swift */; };
 		614C00A31EC30661001543D9 /* IOBattery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614C00A21EC30661001543D9 /* IOBattery.swift */; };
 		615118021EDEEDDA00D11475 /* IOSHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615118011EDEEDDA00D11475 /* IOSHistoryViewController.swift */; };
-		618084FA24C0FA4A00E67F20 /* BatteryStatusShow_1.5.3.zip in Resources */ = {isa = PBXBuildFile; fileRef = 618084F924C0FA4A00E67F20 /* BatteryStatusShow_1.5.3.zip */; };
 		61821D8E1EC49359005750A0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61821D8D1EC49359005750A0 /* DetailViewController.swift */; };
 		6193279024709106000EA703 /* SmcHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 61932782247083FD000EA703 /* SmcHelper.m */; };
 		6193279124709106000EA703 /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6193276524707C3E000EA703 /* smc.c */; };
@@ -37,9 +34,9 @@
 		619F39071ECB80410074666B /* data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 619F39051ECB80410074666B /* data.xcdatamodeld */; };
 		619F39091ECB83310074666B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F39081ECB83310074666B /* DataController.swift */; };
 		619F390B1ECB8EBC0074666B /* HistoryMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F390A1ECB8EBC0074666B /* HistoryMO.swift */; };
+		61A99611256A2AAE009E81B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614C007D1EC23FA8001543D9 /* Main.storyboard */; };
 		61AE7F7E1EE2A4140003BC96 /* BatteryStatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AE7F7D1EE2A4140003BC96 /* BatteryStatusItem.swift */; };
 		61AF6F461EDAF7D4005F8DA9 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF6F451EDAF7D4005F8DA9 /* TabViewController.swift */; };
-		61AF6F481EDB0A85005F8DA9 /* iosbattery.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61AF6F471EDB0A85005F8DA9 /* iosbattery.csv */; };
 		61AF6F4A1EDB1018005F8DA9 /* PeripheralViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF6F491EDB1018005F8DA9 /* PeripheralViewControl.swift */; };
 		61CDE1072473088E00B56900 /* libcrypto.1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDDFD62472FDF700B56900 /* libcrypto.1.0.0.dylib */; };
 		61CDE1082473088E00B56900 /* libcrypto.1.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFD62472FDF700B56900 /* libcrypto.1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -61,8 +58,6 @@
 		61D3581A1ED21F9000769C03 /* mapping .xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 61D358191ED21F9000769C03 /* mapping .xcmappingmodel */; };
 		61D3581C1ED237C900769C03 /* CycleEntityMigrationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3581B1ED237C900769C03 /* CycleEntityMigrationPolicy.swift */; };
 		61D3581E1ED23EA200769C03 /* mappingtoold.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 61D3581D1ED23EA200769C03 /* mappingtoold.xcmappingmodel */; };
-		61E4D21824718FBD00E9860B /* readme_pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E4D21624718FBD00E9860B /* readme_pic1.png */; };
-		61E4D21924718FBD00E9860B /* readme_pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E4D21724718FBD00E9860B /* readme_pic2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +176,7 @@
 		619F39061ECB80410074666B /* data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = data.xcdatamodel; sourceTree = "<group>"; };
 		619F39081ECB83310074666B /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		619F390A1ECB8EBC0074666B /* HistoryMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryMO.swift; sourceTree = "<group>"; };
+		61A99615256A2B20009E81B3 /* BatteryStatusShow_1.5.4.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = BatteryStatusShow_1.5.4.zip; sourceTree = "<group>"; };
 		61AE7F7D1EE2A4140003BC96 /* BatteryStatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryStatusItem.swift; sourceTree = "<group>"; };
 		61AF6F451EDAF7D4005F8DA9 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		61AF6F471EDB0A85005F8DA9 /* iosbattery.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iosbattery.csv; sourceTree = "<group>"; };
@@ -342,6 +338,7 @@
 		614C006B1EC23FA8001543D9 = {
 			isa = PBXGroup;
 			children = (
+				61A99615256A2B20009E81B3 /* BatteryStatusShow_1.5.4.zip */,
 				618084F924C0FA4A00E67F20 /* BatteryStatusShow_1.5.3.zip */,
 				61CDE12E24731C9200B56900 /* smcutil */,
 				61CDDFD62472FDF700B56900 /* libcrypto.1.0.0.dylib */,
@@ -626,14 +623,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A99611256A2AAE009E81B3 /* Main.storyboard in Resources */,
 				61CDE1312473204800B56900 /* smcutil in Resources */,
-				61AF6F481EDB0A85005F8DA9 /* iosbattery.csv in Resources */,
-				61E4D21824718FBD00E9860B /* readme_pic1.png in Resources */,
 				614C007C1EC23FA8001543D9 /* Assets.xcassets in Resources */,
-				61065A5C1ED338A6008DB039 /* battery.csv in Resources */,
-				614C007F1EC23FA8001543D9 /* Main.storyboard in Resources */,
-				61E4D21924718FBD00E9860B /* readme_pic2.png in Resources */,
-				618084FA24C0FA4A00E67F20 /* BatteryStatusShow_1.5.3.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,6 +736,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -805,6 +798,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -858,15 +852,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = BatteryStatusShow/BatteryStatusShow.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 7698T37TAB;
 				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/BatteryStatusShow",
 					"$(inherited)",
@@ -886,7 +882,7 @@
 				);
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.5.3;
+				MARKETING_VERSION = 1.5.4;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = sicreativelee.batterystatusshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -902,15 +898,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = BatteryStatusShow/BatteryStatusShow.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 7698T37TAB;
 				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/BatteryStatusShow",
 					"$(inherited)",
@@ -930,7 +928,7 @@
 				);
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.5.3;
+				MARKETING_VERSION = 1.5.4;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = sicreativelee.batterystatusshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";

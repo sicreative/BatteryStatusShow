@@ -786,7 +786,7 @@ class IOBattery{
                         macserialno = "DB12345678901234"
                     #else
                          macserialno = (childdict["IOPlatformSerialNumber"]) as! String
-                    #endif
+                   #endif
                     
                     let langCode = Locale.current.languageCode
                     var regionCode = Locale.current.regionCode
@@ -973,7 +973,7 @@ class IOBattery{
                         max_capacity = Int (truncating: value as? NSNumber ?? 0)
                     case "CycleCount":
                         cycle_count = Int (truncating: value as? NSNumber ?? 0)
-                    case "BatterySerialNumber":
+                    case "BatterySerialNumber","Serial":
                         if (battery_serialno.isEmpty){
                             #if DEBUG
                                 battery_serialno = "C412345678901"
