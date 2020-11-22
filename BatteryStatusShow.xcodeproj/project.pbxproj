@@ -35,6 +35,7 @@
 		619F39091ECB83310074666B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F39081ECB83310074666B /* DataController.swift */; };
 		619F390B1ECB8EBC0074666B /* HistoryMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F390A1ECB8EBC0074666B /* HistoryMO.swift */; };
 		61A99611256A2AAE009E81B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614C007D1EC23FA8001543D9 /* Main.storyboard */; };
+		61A9962C256A99B6009E81B3 /* smcutil in Resources */ = {isa = PBXBuildFile; fileRef = 61CDE12E24731C9200B56900 /* smcutil */; };
 		61AE7F7E1EE2A4140003BC96 /* BatteryStatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AE7F7D1EE2A4140003BC96 /* BatteryStatusItem.swift */; };
 		61AF6F461EDAF7D4005F8DA9 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF6F451EDAF7D4005F8DA9 /* TabViewController.swift */; };
 		61AF6F4A1EDB1018005F8DA9 /* PeripheralViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF6F491EDB1018005F8DA9 /* PeripheralViewControl.swift */; };
@@ -53,7 +54,6 @@
 		61CDE12924730C5200B56900 /* libplist.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDDFD82472FDF700B56900 /* libplist.3.dylib */; };
 		61CDE12A24730C5200B56900 /* libplist.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFD82472FDF700B56900 /* libplist.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		61CDE12B247313C200B56900 /* libusbmuxd.4.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 61CDDFB72472FDE400B56900 /* libusbmuxd.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		61CDE1312473204800B56900 /* smcutil in Resources */ = {isa = PBXBuildFile; fileRef = 61932788247090D0000EA703 /* smcutil */; };
 		61D358171ED0C4B800769C03 /* TwoAxisBaseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D358161ED0C4B800769C03 /* TwoAxisBaseChartView.swift */; };
 		61D3581A1ED21F9000769C03 /* mapping .xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 61D358191ED21F9000769C03 /* mapping .xcmappingmodel */; };
 		61D3581C1ED237C900769C03 /* CycleEntityMigrationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3581B1ED237C900769C03 /* CycleEntityMigrationPolicy.swift */; };
@@ -176,7 +176,7 @@
 		619F39061ECB80410074666B /* data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = data.xcdatamodel; sourceTree = "<group>"; };
 		619F39081ECB83310074666B /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		619F390A1ECB8EBC0074666B /* HistoryMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryMO.swift; sourceTree = "<group>"; };
-		61A99616256A2C7C009E81B3 /* BatteryStatusShow_1.5.4.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = BatteryStatusShow_1.5.4.zip; path = release/BatteryStatusShow_1.5.4.zip; sourceTree = "<group>"; };
+		61A99634256A9AEC009E81B3 /* BatteryStatusShow_1.5.41.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = BatteryStatusShow_1.5.41.zip; path = release/BatteryStatusShow_1.5.41.zip; sourceTree = "<group>"; };
 		61AE7F7D1EE2A4140003BC96 /* BatteryStatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryStatusItem.swift; sourceTree = "<group>"; };
 		61AF6F451EDAF7D4005F8DA9 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		61AF6F471EDB0A85005F8DA9 /* iosbattery.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iosbattery.csv; sourceTree = "<group>"; };
@@ -338,8 +338,8 @@
 		614C006B1EC23FA8001543D9 = {
 			isa = PBXGroup;
 			children = (
-				61A99616256A2C7C009E81B3 /* BatteryStatusShow_1.5.4.zip */,
 				618084F924C0FA4A00E67F20 /* BatteryStatusShow_1.5.3.zip */,
+				61A99634256A9AEC009E81B3 /* BatteryStatusShow_1.5.41.zip */,
 				61CDE12E24731C9200B56900 /* smcutil */,
 				61CDDFD62472FDF700B56900 /* libcrypto.1.0.0.dylib */,
 				61CDDFD42472FDF700B56900 /* libimobiledevice.6.dylib */,
@@ -623,8 +623,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A9962C256A99B6009E81B3 /* smcutil in Resources */,
 				61A99611256A2AAE009E81B3 /* Main.storyboard in Resources */,
-				61CDE1312473204800B56900 /* smcutil in Resources */,
 				614C007C1EC23FA8001543D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -859,7 +859,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 7698T37TAB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				EXCLUDED_ARCHS = arm64;
@@ -882,7 +882,7 @@
 				);
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.5.4;
+				MARKETING_VERSION = 1.5.41;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = sicreativelee.batterystatusshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -905,7 +905,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 7698T37TAB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				EXCLUDED_ARCHS = arm64;
@@ -928,7 +928,7 @@
 				);
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.5.4;
+				MARKETING_VERSION = 1.5.41;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = sicreativelee.batterystatusshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
