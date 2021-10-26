@@ -4,6 +4,8 @@
 ![ pic1](/README/readme_pic1.png)
 ![ pic2](/README/readme_pic2.png)
 
+#### Version 1.5.5
+Support Monterey 
 #### Version 1.5.41
 Solve 1.5.4 unable change level 
 #### Version 1.5.4
@@ -38,7 +40,7 @@ Tested under 10.15.4 Macbook Pro 2018, may or may not work on your model.
 
 ## Download complied APP
 
-[BatteryStatusShow_1.5.41.zip](/release/BatteryStatusShow_1.5.41.zip)
+[BatteryStatusShow_1.5.41.zip](/release/BatteryStatusShow_1.5.5.zip)
 
 ### Complie
 1. clone this git
