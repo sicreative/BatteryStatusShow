@@ -137,7 +137,7 @@ kern_return_t SMCGetKeyInfo(io_connect_t conn, UInt32 key, SMCKeyData_keyInfo_t*
    // OSSpinLock g_keyInfoSpinLock = 0;
 	//OSSpinLockLock(&g_keyInfoSpinLock);
 
-    os_unfair_lock lock;
+    os_unfair_lock lock = OS_UNFAIR_LOCK_INIT;
     os_unfair_lock_lock(&lock);
     
     
