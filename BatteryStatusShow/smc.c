@@ -74,7 +74,7 @@ kern_return_t SMCOpen(const char *serviceName, io_connect_t *conn)
     io_iterator_t iterator;
     io_object_t   device;
 
-    IOMasterPort(MACH_PORT_NULL, &masterPort);
+    IOMainPort(MACH_PORT_NULL, &masterPort);
 
     CFMutableDictionaryRef matchingDictionary = IOServiceMatching(serviceName);
     result = IOServiceGetMatchingServices(masterPort, matchingDictionary, &iterator);
