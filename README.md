@@ -40,7 +40,7 @@ Tested under 10.15.4 Macbook Pro 2018, may or may not work on your model.
 
 ## Download complied APP
 
-[BatteryStatusShow_1.5.41.zip](/release/BatteryStatusShow_1.5.5.zip)
+[BatteryStatusShow_1.5.5.zip](/release/BatteryStatusShow_1.5.5.zip)
 
 ### Complie
 1. clone this git
