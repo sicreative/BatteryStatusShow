@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6104AD3727282A98002AAC94 /* smcutil in Resources */ = {isa = PBXBuildFile; fileRef = 61932788247090D0000EA703 /* smcutil */; };
 		61065A5E1ED384D8008DB039 /* IOHID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61065A5D1ED384D8008DB039 /* IOHID.swift */; };
 		61095B0E1EE537BA00C924AC /* WindowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61095B0D1EE537BA00C924AC /* WindowsController.swift */; };
 		611AEA801EE1E8C600315DA9 /* IOSModelDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611AEA7F1EE1E8C600315DA9 /* IOSModelDict.swift */; };
@@ -35,7 +36,6 @@
 		619F39091ECB83310074666B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F39081ECB83310074666B /* DataController.swift */; };
 		619F390B1ECB8EBC0074666B /* HistoryMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F390A1ECB8EBC0074666B /* HistoryMO.swift */; };
 		61A99611256A2AAE009E81B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614C007D1EC23FA8001543D9 /* Main.storyboard */; };
-		61A9962C256A99B6009E81B3 /* smcutil in Resources */ = {isa = PBXBuildFile; fileRef = 61CDE12E24731C9200B56900 /* smcutil */; };
 		61AE7F7E1EE2A4140003BC96 /* BatteryStatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AE7F7D1EE2A4140003BC96 /* BatteryStatusItem.swift */; };
 		61AF6F461EDAF7D4005F8DA9 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF6F451EDAF7D4005F8DA9 /* TabViewController.swift */; };
 		61AF6F4A1EDB1018005F8DA9 /* PeripheralViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF6F491EDB1018005F8DA9 /* PeripheralViewControl.swift */; };
@@ -623,7 +623,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A9962C256A99B6009E81B3 /* smcutil in Resources */,
+				6104AD3727282A98002AAC94 /* smcutil in Resources */,
 				61A99611256A2AAE009E81B3 /* Main.storyboard in Resources */,
 				614C007C1EC23FA8001543D9 /* Assets.xcassets in Resources */,
 			);

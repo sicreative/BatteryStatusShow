@@ -1582,7 +1582,8 @@ class IOBattery{
         dateformatter.timeZone = Calendar.current.timeZone
        // print (dateformatter.string(from: Date()))
         
-        for line in lines!{
+        if (lines != nil){
+        for line in lines! {
             
             if (line == ""){
                 continue;
@@ -1610,6 +1611,7 @@ class IOBattery{
             
             
             
+        }
         }
     }
     
