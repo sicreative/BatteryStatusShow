@@ -46,8 +46,8 @@
             filePath = "BatteryStatusShow/smc.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "228"
-            endingLineNumber = "228"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
             landmarkName = "SMCWriteKey(conn, val)"
             landmarkType = "9">
          </BreakpointContent>
@@ -754,6 +754,22 @@
             endingLineNumber = "959"
             landmarkName = "ioregclaim()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "904393E5-F469-46CB-8CEE-93BAB35EB326"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smcutil/main.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

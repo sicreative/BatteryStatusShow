@@ -26,6 +26,7 @@ cc ./smc.c  -o smcutil -framework IOKit -framework CoreFoundation -Wno-four-char
 #include <Kernel/string.h>
 #include <stdio.h>
 #include <os/lock.h>
+#include <sys/utsname.h>
 
 #include <libkern/OSAtomic.h>
 
@@ -67,14 +68,33 @@ void _ultostr(char *str, UInt32 val)
              (unsigned int) val);
 }
 
+
+bool isSystemMontereyOrLatest(void){
+    struct utsname system;
+    
+    uname(&system);
+
+    char *major = strtok(system.release, ".");
+    
+    
+    return (atoi(major) >= 21);
+    
+    
+}
+
 kern_return_t SMCOpen(const char *serviceName, io_connect_t *conn)
 {
     kern_return_t result;
     mach_port_t   masterPort;
     io_iterator_t iterator;
     io_object_t   device;
+    
+    
 
-    IOMainPort(MACH_PORT_NULL, &masterPort);
+    if(isSystemMontereyOrLatest())
+        IOMainPort(MACH_PORT_NULL, &masterPort);
+    else
+        IOMasterPort(MACH_PORT_NULL, &masterPort);
 
     CFMutableDictionaryRef matchingDictionary = IOServiceMatching(serviceName);
     result = IOServiceGetMatchingServices(masterPort, matchingDictionary, &iterator);
@@ -137,7 +157,10 @@ kern_return_t SMCGetKeyInfo(io_connect_t conn, UInt32 key, SMCKeyData_keyInfo_t*
    // OSSpinLock g_keyInfoSpinLock = 0;
 	//OSSpinLockLock(&g_keyInfoSpinLock);
 
-    os_unfair_lock lock = OS_UNFAIR_LOCK_INIT;
+    os_unfair_lock lock;
+    if(isSystemMontereyOrLatest()){
+        lock = OS_UNFAIR_LOCK_INIT;
+    }
     os_unfair_lock_lock(&lock);
     
     
