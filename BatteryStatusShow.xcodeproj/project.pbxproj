@@ -108,6 +108,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6104AD3927282D65002AAC94 /* smcutil */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = smcutil; path = BatteryStatusShow/smcutil; sourceTree = "<group>"; };
 		61065A5B1ED338A6008DB039 /* battery.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = battery.csv; sourceTree = "<group>"; };
 		61065A5D1ED384D8008DB039 /* IOHID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOHID.swift; sourceTree = "<group>"; };
 		61095B0D1EE537BA00C924AC /* WindowsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowsController.swift; sourceTree = "<group>"; };
@@ -242,7 +243,6 @@
 		61CDE0CA2473024600B56900 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libxml2.2.dylib"; sourceTree = "<group>"; };
 		61CDE0CB2473024600B56900 /* lib4758cca.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = lib4758cca.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/lib4758cca.dylib"; sourceTree = "<group>"; };
 		61CDE0CC2473024600B56900 /* libubsec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libubsec.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/BatteryStatusShow-cfnzpswiegpjrtfacmwmdimhuyfj/Build/Products/Debug/BatteryStatusShow.app/Contents/Resources/libubsec.dylib"; sourceTree = "<group>"; };
-		61CDE12E24731C9200B56900 /* smcutil */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = smcutil; path = BatteryStatusShow/smcutil/Products/usr/local/bin/smcutil; sourceTree = "<group>"; };
 		61D358161ED0C4B800769C03 /* TwoAxisBaseChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoAxisBaseChartView.swift; sourceTree = "<group>"; };
 		61D358181ED217F600769C03 /* v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = v2.xcdatamodel; sourceTree = "<group>"; };
 		61D358191ED21F9000769C03 /* mapping .xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "mapping .xcmappingmodel"; sourceTree = "<group>"; };
@@ -338,9 +338,9 @@
 		614C006B1EC23FA8001543D9 = {
 			isa = PBXGroup;
 			children = (
+				6104AD3927282D65002AAC94 /* smcutil */,
 				618084F924C0FA4A00E67F20 /* BatteryStatusShow_1.5.3.zip */,
 				61A99634256A9AEC009E81B3 /* BatteryStatusShow_1.5.41.zip */,
-				61CDE12E24731C9200B56900 /* smcutil */,
 				61CDDFD62472FDF700B56900 /* libcrypto.1.0.0.dylib */,
 				61CDDFD42472FDF700B56900 /* libimobiledevice.6.dylib */,
 				61CDDFD72472FDF700B56900 /* libltdl.7.dylib */,
