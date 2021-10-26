@@ -74,7 +74,7 @@ kern_return_t SMCOpen(const char *serviceName, io_connect_t *conn)
     io_iterator_t iterator;
     io_object_t   device;
 
-    IOMasterPort(MACH_PORT_NULL, &masterPort);
+    IOMainPort(MACH_PORT_NULL, &masterPort);
 
     CFMutableDictionaryRef matchingDictionary = IOServiceMatching(serviceName);
     result = IOServiceGetMatchingServices(masterPort, matchingDictionary, &iterator);
@@ -137,7 +137,7 @@ kern_return_t SMCGetKeyInfo(io_connect_t conn, UInt32 key, SMCKeyData_keyInfo_t*
    // OSSpinLock g_keyInfoSpinLock = 0;
 	//OSSpinLockLock(&g_keyInfoSpinLock);
 
-    os_unfair_lock lock;
+    os_unfair_lock lock = OS_UNFAIR_LOCK_INIT;
     os_unfair_lock_lock(&lock);
     
     
