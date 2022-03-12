@@ -21,7 +21,7 @@
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Vist Website" id="Kie-0Q-T9w" userLabel="Home Page">
+                                        <menuItem title="Visit Website" id="Kie-0Q-T9w" userLabel="Home Page">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="linkHomePage:" target="Voe-Tx-rLC" id="L0Y-al-SNN"/>
